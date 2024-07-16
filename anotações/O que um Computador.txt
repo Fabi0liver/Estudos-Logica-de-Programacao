@@ -14,24 +14,33 @@ funções, o "Hardware" e o "Software.
  
 * Hardware:
  
- É todo componente físico, interno ou externo do computador, que determina do que o dispositivo é capaz e como se pode usá-lo. Embora dependa de um "software" para funcionar(e vice-versa), o hardware é um elemento a parte e igualmente importante.
+ É todo componente físico, interno ou externo do computador, que determina do que o dispositivo é capaz e como se pode usá-lo. 
+Embora dependa de um "software" para funcionar(e vice-versa), o hardware é um elemento a parte e igualmente importante.
  
- O conceito se aplica aos componentes de dispositivos em geral, como processador, placa-mãe, memória RAM, unidade de armazenamento (HD e SSD), bem como a dispositivos de entrada e saída (teclado, mouse, monitor, caixas de som, controle remoto, controle de videogame, entre outros). 
+ O conceito se aplica aos componentes de dispositivos em geral, como processador, placa-mãe, memória RAM, unidade de armazenamento (HD e SSD),
+bem como a dispositivos de entrada e saída (teclado, mouse, monitor, caixas de som, controle remoto, controle de videogame, entre outros). 
 
 O hardware se divide em dois tipos distintos:
 
- Hardware interno: É todo aquele que não está visível e integra as partes internas de seu dispositivo. Em ciência da Computação, entende-se como hardware interno componentes como processador, placa-mãe, memória RAM, placa de vídeos, cooler e ventoinhas, cabos internos, fontes, HD, SSD, unidades ópticas, entre outros.
+ Hardware interno: É todo aquele que não está visível e integra as partes internas de seu dispositivo. 
+Em ciência da Computação, entende-se como hardware interno componentes como processador, placa-mãe, 
+memória RAM, placa de vídeos, cooler e ventoinhas, cabos internos, fontes, HD, SSD, unidades ópticas, entre outros.
 
- Hardware externo: Esta categoria contém todas os componentes visíveis e que são acessados diretamente pelo usuário. Entram aqui monitor, teclado, mouse, controle remoto, controle de videogame, cabos externos, fones de ouvido, microfone, câmera de vídeo, impressora, projetor, Scanner, alto-falantes, unidades de armazenamentos externas (HD e SSD externos, pendrives) entre outros.
+ Hardware externo: Esta categoria contém todas os componentes visíveis e que são acessados diretamente pelo usuário. Entram aqui monitor,
+teclado, mouse, controle remoto, controle de videogame, cabos externos, fones de ouvido, microfone, câmera de vídeo, impressora, projetor,
+Scanner, alto-falantes, unidades de armazenamentos externas (HD e SSD externos, pendrives) entre outros.
 
- Basicamente, a diferença do externo para o interno é a possibilidade de o primeiro ser usado de forma direta, enquanto o segundo é parte integrante do dispositivo e até pode ser trocado.
+ Basicamente, a diferença do externo para o interno é a possibilidade de o primeiro ser usado de forma direta,
+enquanto o segundo é parte integrante do dispositivo e até pode ser trocado.
 
 
 * Software 
 
-É basicamente, um programa de computador que segue instruções específicas e predeterminadas por um desenvolvedor. A sua finalidade é prestar um suporte ao usuário, sempre com base na lógica, ou seja, em “regras” criadas para o seu funcionamento.
+É basicamente, um programa de computador que segue instruções específicas e predeterminadas por um desenvolvedor. 
+A sua finalidade é prestar um suporte ao usuário, sempre com base na lógica, ou seja, em “regras” criadas para o seu funcionamento.
 
-Como é criado a partir de códigos e comandos, um software sempre reproduz os mesmos padrões em uma variedade limitada de opções. Assim, ele gera resultados esperados e conhecidos, o que aumenta a sua confiabilidade em relação àquelas tarefas monótonas e repetitivas.
+Como é criado a partir de códigos e comandos, um software sempre reproduz os mesmos padrões em uma variedade limitada de opções.
+Assim, ele gera resultados esperados e conhecidos, o que aumenta a sua confiabilidade em relação àquelas tarefas monótonas e repetitivas.
 
 
 
