@@ -1,0 +1,89 @@
+                                                Software
+
+ É uma sequência de instruções escritas  para serem interpretadas por um computador para executar tarefas específicas. Também pode ser definido como os programas, dados e instruções que comandam os funcionamento de uma computador, smartphone, tablet e outros dispositivos eletrônicos.
+
+ Os softwares desempenham um papel importante  ao traduzir as intenções e comandos dos usuários para uma linguagem compreensível pelos dispositivos eletrônicos. Ao contrário do hardware, que consiste nós  atributos físicos, o software é composto por um conjunto de programas, algoritmos e dados que guiam o hardware na execução de suas tarefas.
+
+ Assim, o desenvolvimento de um software é um processo complexo que envolve uma equipe de programadores e desenvolvedores para que tudo funcione perfeitamente. Esses profissionais utilizam linguagens de programas como Java, Python, C# , Ruby , entre outros milhares, para criar conjuntos de instruções, chamados código-fonte, que definem o comportamento do software.
+
+ Cada linha de código é uma diretriz específica para o computador, detalhando como ele deve processar dados, interagir com o usuário e realizar operações específicas. O resultado é um programa acessível, que pode ser iniciado e utilizado pelos usuários finais.
+
+ O ciclo de desenvolvimentos de software geralmente segue várias etapas, começando com a análise de requisitos, onde os objetivos do software são definidos. Então é projetado a estrutura do software, escrito o código-fonte, realizado testes para garantir que ele funcione conforme o esperado e, finalmente, lançado o produto.
+
+A partir desse processo de desenvolvimento, os diapositivos conseguem executar tarefas cada vez mais complexas, integrando-se em aspectos fundamental do cotidiano.
+
+
+
+* Qual é a função do software:
+
+Uma das principais funções de um software é agilidade o trabalho humano, reduzindo os erros nos processos e
+gerando uma certa padronização no modo de operacional determinadas tarefas. 
+
+É a tecnologia sendo empregada para registra dados e informações, usando esses inputs para:
+
+- projetar cenários futuros
+- indicar as melhores decisões
+- elaborar uma perspectiva geral sobre os negócio
+- apontar erros e falhas
+- automatizar etapas repetitivas
+- entre outros.
+
+ Com essas e outras aplicações, a empresa economiza recursos nos mais variados âmbitos, como tempo, dinheiro e,
+é claro, mão de obra.
+
+
+
+* Quais são os tipo de software:
+
+ Apesar de estarem em todos os lugares, os software podem ser classificados em tipos diferentes. Cada um deles
+seguem as suas próprias funções e proporciona os seus próprios benéficos.
+
+- rodar jogos
+- executar programas
+- iniciar aplicativos
+- produzir códigos
+- estruturar chatbots
+- entre outros
+
+ Existem diversos softwares que atendem a diferentes demandas e cenários, refletindo a crescente complexidade de necessidades tecnológicas.
+
+ Sistema: Esse tipo de software é responsável por gerenciar os recursos de hardware do computador ou dispositivo.
+Inclui sistemas operacionais como o Windows para PCs, Android pra dispositivos móveis e IOS para dispositivos da
+Apple. Seu papel está em fornecer uma interface eficiente entre o usuário e o hardware, facilitando a execução de 
+programas e a interação com o sistema.
+
+ Aplicativos: Já os softwares de aplicativos são voltados para tarefas específicas, atendendo ás necessidades do
+usuário final. Incluem desde ferramentas de produtividade , até aplicativos de entretenimento.
+
+ Comunicação: Criados para facilitar a comunicação entre usuários, esses elementos engloba aplicativos de 
+mensagens instantâneas, chamadas de voz e vídeos, como WhatsApp e Telegram, proporcionando forma eficientes de
+interação em tempo real.
+
+ Jogos: Desenvolvidos para entretenimento, lazer ou mesmo pra fins educacionais, as aplicações de jogos oferecem
+uma experiência interativa, envolvendo o usuário em narrativas, desafios e simulações diferentes.
+
+ Inteligência Artificial: Tipo de software baseado em inteligência Artificial utiliza algoritmos avançados para
+simular inteligência humana. Esses softwares são capazes de aprender com dados, tomar decisões autônomas e realizar tarefas complexas, como reconhecimento de padrões e processamento de linguagem natural.
+
+ Entre outros tipos de software.
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
