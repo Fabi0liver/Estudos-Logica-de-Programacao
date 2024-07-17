@@ -1,0 +1,68 @@
+                                            O QUE É A LÓGICA?
+
+ A lógica é uma área da filosofia que visa estudar a estrutura formal dos enunciados (posição) e suas regras.
+Em suma, a lógica serve para se pensar corretamente, sendo assim, uma ferramenta de correto pensar.
+ 
+ Lógica tem origem na palavra grega "logos", que significa razão, argumentação ou fala. A ideia de falar e argumentar pressupõe que o que está sendo dito possua um sentido para aquele que ouve.
+
+ Esse sentido fundamenta-se na estrutura lógica, quando algo "tem lógica" que dizer que faz sentido, é uma argumentação racional. A pode ser compreendida coma um instrumento do correto pensar e a definições de elementos
+lógico que fundamentam o conhecimento verdadeiro.
+
+ Qualquer Conhecimento que pretenda ser um conhecimento verdadeiro e universal deveria respeitar alguns princípios.
+
+Aristóteles desenvolveu três princípios básicos que orientam a lógica, que são:
+
+- Princípio de identidade: Um ser é sempre idêntico a si mesmo: A é A. Se substituímos A por Maria, por exemplo,
+Fica: Maria é Maria.
+
+- Princípio da não-contradição: É impossível ser e não ser ao mesmo tempo, ou um mesmo ente ser também o seu oposto. É impossível que A seja A e não-A, ao mesmo tempo. Ou, e impossível que Maria seja Maria e não seja Maria.
+
+Princípio do terceiro excluído, ou terceiro excluso: Nas proposições, só existem duas opções, ou é afirmativa ou
+negativa? A é x ou A é não-x. Maria é professora ou Maria não é professora. Não existe uma terceira possibilidade.
+
+Obs.: Proposições são enunciados, afirmações ou negações, e possuem sua validade, ou falsidade, analisada logicamente.
+
+
+
+                                     O QUE É LÓGICA DE PROGRAMAÇÃO?
+
+ A lógica de programação  é uma conjunto de regras e conceitos necessários para criar códigos que um computador ou
+qualquer outro dispositivo pode interpretar e executar, resultando na resolução de uma tarefa ou na criação de software.
+
+ Em essência, a lógica de programação está relacionada á sequência das ações que serão tomadas para que se desenvolva um programa ou para que um problema seja resolvido. Ela organiza essa série de ações de forma coesa e coerente.
+
+ A lógica de programação não está diretamente ligada a uma linguagem de programação específica, mas sim aos princípios universais que guiam o desenvolvimento de software. É, portanto, um ponto de partida essencial para quem deseja aprender a programar.
+
+
+ * Conceitos básicos da lógica de programação:
+
+ Os conceitos básicos da lógica de programação são os princípios fundamentais que guiam o desenvolvimento de algoritmos e programas de computador. Eles são universais, logo, estão presentes e se repetem em basicamente todas as linguagens.
+
+- Algoritmo: Um algoritmo é uma sequência de etapas bem definidas e organizadas que descrevem como resolver um problema ou realizar uma tarefa. Ele serve como um plano detalhado que orienta a execução de ações específicas para alcançar um objetivo.
+
+-Pseudocódigo: O pseudocódigo é uma forma de representar códigos, sejam algoritmos, funções ou outros processos,
+usando uma combinação de linguagem natural e elementos que se parecem com linguagem de programação.
+ O pseudocódigo não é uma linguagem de programação real, mas sim uma ferramenta que ajuda a visualizar e entender a lógica por trás de uma programa.
+
+- Dados: Os dados são um conceito básico da lógica de programação que se referem a informações ou valores que um
+programa manipula para realizar tarefas específicas. Esses dados podem ser números, texto, datas, objetos ou qualquer tipo de informação que o programa precise processar.
+
+- variáveis : As variáveis são recursos da lógica de programação usados pra possibilitar a mudança de dados ou 
+valores ao longo da execução de um programa.
+
+
+- Estruturas Condicionais: As Estruturas Condicionais são usadas pra garantir o fluxo de execução dos algoritmos,
+como os "se", "então" e "senão". Elas permitem que o programa escolha entre diferentes caminhos com base em condições.
+
+- Estruturas de repetição(loops): Para executar tarefas repetitivas na lógica de programação, usamos loops, como o
+"enquanto" e o "para". Eles permitem que um conjunto de instruções se repita várias vezes até que uma condição seja atendida.
+
+
+ * A diferença de  Lógica de programação e Linguagens de programação:
+
+ Lógica de programação refere-se á habilidade de desenvolver algoritmos e resolver problemas de maneira estruturada e lógica, independentemente da linguagem de programação. É o processo de definir a sequência de etapas necessárias para resolver um problema.
+ 
+ Por outro lado, linguagem de programação são ferramentas específicas usadas para implementar algoritmos em códigos executável. Enquanto a lógica de programação se concentra na resolução de problemas, as linguagens de programação são usadas para expressar essas soluções em forma compreensível pra o computador.
+
+
+
