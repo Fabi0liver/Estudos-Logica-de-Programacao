@@ -2,7 +2,7 @@
 
 O Programa é um agrupamento de comandos escritos em uma linguagem de programação. Estes comandos, ou instruções, criam as ações dentro do programa, e permitem seu funcionamento.
 
-Cada ação é determinada por sequencia, e cada sequencia se agrupa para formar o programa em si. estes comandos se unem, criando um programa complexo.
+Cada ação é determinada por sequencia, e cada sequencia se agrupa para formar o programa em si. Estes comandos se unem, criando um programa complexo.
 
 
                                           PROGRAMAÇÃO
@@ -20,6 +20,23 @@ comando ou até mesmo sistemas mais complexos.
  O grande diferencial é que após receber as instruções, esses equipamentos possuem uma velocidade de processamento
 extremamente maior do que a nossa. Por isso, precisamos definir regras bem detalhadas e instruí-los cuidadosamente
 para que realizem alguma ação.
+
+Os pilares da programação são:
+
+- Linguagem de programação: São elas que permitem que os desenvolvedores criem no mundo digital os projetos do mundo real. Elas atuam como ferramentas de comunicação entre os desenvolvedores e os computadores, permitindo
+a criação de programas, aplicativos e software complexos.
+ Existe muitas linguagens de programação conhecida como: Java Script, Python, C++, C#, Java...
+
+- Código-fonte: O código-fonte funciona como uma conjunto de instruções que os programadores escrevem para dizer
+aos computadores o que fazer. É como uma receita para preparar um prato: você segue os passos para chegar ao resultado final. No caso do código-fonte, são linhas de texto escritas em linguagem compreensível para os programadores, mas que os computadores podem entender.
+
+- Algoritmo de programação: Os algoritmos são conjuntos de instruções inteligentes que permitem aos desenvolvedores criar desde aplicativos simples até softwares complexos. São uma sequência de passos lógicos de passos lógicos que dizem ao computador o que fazer.
+ Na programação, os algoritmos são essenciais para criar softwares e ajudam a encontrar soluções para diferentes
+desafios.
+
+- Estrutura de dados: As estruturas de dados são como compartimentos diferentes em um grande armário. Cada Compartilhamento guarda um tipo específico de informações e ajuda os programadores a organizar e encontrar dados de forma eficiente.
+ Existem vários tipos de estruturas de dados, como listas, pilhas, e até mesmo árvores e mapas. Cada uma tem suas característica e vantagens, e escolher a estrutura certa é como ter um mapa para construir programas eficientes
+inteligente. 
 
 
 
