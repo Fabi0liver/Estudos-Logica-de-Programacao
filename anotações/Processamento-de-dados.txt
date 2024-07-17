@@ -7,8 +7,8 @@ fossem processados, então não haveria informações para ser lida.
 
  Os dados nada mais são do que coleções de fatos crus, como por exemplo números, palavras, medidas, observações ou apenas descrições de objetos.
 
- Os dados podem ser categorizados em quatro diferentes tipos: Alfanuméricos, que representa números, letras e outras caracteres; imagem, que aborda tanto fotos, figuras quanto gráficos: áudios, onde são englobados sons,
-barulhos e tons; e por fim, vídeos, tratando-se de imagens que se movem ou figuras.
+ Os dados podem ser categorizados em quatro diferentes tipos: Alfanuméricos, que representa números, letras e outras caracteres; imagem, que aborda 
+tanto fotos, figuras quanto gráficos: áudios, onde são englobados sons, barulhos e tons; e por fim, vídeos, tratando-se de imagens que se movem ou figuras.
 
  Sozinhos, os dados parecem não ter uma grande importância, mas quando arranjados de forma correta eles podem
 carregar informações. Dessa forma podemos dizer que informações são uma coleção de fatos organizados e processados
@@ -20,7 +20,10 @@ que têm algum valor adicional além do individual eu carregam.
                                              ____|____
                                            ARMAZENAMENTO
 
- O processamento de dados está diretamente ligado ao hardware e os software de um dispositivo eletrônico. O hardware é o responsável por realizar o processamento de todos os dados através de seus componentes de memória e processador. Após realizar o processamento destes, ou seja, manipular esses dados, o computador irá dar retorno para o usuário através de saídas de informações e é a partir delas que o usuário consegue ter acesso ás informações desejadas.
+ O processamento de dados está diretamente ligado ao hardware e os software de um dispositivo eletrônico.
+O hardware é o responsável por realizar o processamento de todos os dados através de seus componentes de memória e processador. 
+Após realizar o processamento destes, ou seja, manipular esses dados, o computador irá dar retorno para o usuário através de saídas de informações e é 
+a partir delas que o usuário consegue ter acesso ás informações desejadas.
 
 
 Entrada:
@@ -28,7 +31,8 @@ Entrada:
  É o processo no qual os dados são coletados e transferido pra a memoria (RAM) do computador, onde são transformados em um formatos que é entendido pelo computador.
 
  O nome genérico "unidade de entrada" se refere a qualquer tipo de dispositivo que possa captar dados do meio
-externo computador e transferi-los á memoria (RAM) do computador. Com a utilização do computador nas mais diferentes áreas de atividade humanos têm sido desenvolvidas inúmeros tipos de unidade de entrada, com as características desejadas na respectivas áreas de utilização.
+externo computador e transferi-los á memoria (RAM) do computador. Com a utilização do computador nas mais diferentes áreas de atividade humanos têm sido desenvolvidas 
+inúmeros tipos de unidade de entrada, com as características desejadas na respectivas áreas de utilização.
  
  Exemplos de unidade de entradas mais comum são: Teclado, scanner, microfone, mouse, mesa digitalizadora, Usb(que podem ser tanto de entrada, saída e armazenamento), entre outros.
 
@@ -37,7 +41,10 @@ Processamento:
 
 Estágio onde os dados são transformados em informações através de uma manipulação de dados.
 
- Neste momento que os dados recebidos  são convertidos para o formato que o computador entende, que  e a chamada linguagem de Máquina, uma linguagem de mais baixo nível de entendimento pelo ser humano, mas é entendida pelo processador. Essa linguagem  é feitas totalmente por sinais elétricos  com duas tensões diferentes: Uma alta(lá pelos seus 3v) e uma baixa(perto de 0v), onde a tensão alta representa o 1 e a tensão baixa representa o 0.
+ Neste momento que os dados recebidos  são convertidos para o formato que o computador entende, que  e a chamada linguagem de Máquina, 
+uma linguagem de mais baixo nível de entendimento pelo ser humano, mas é entendida pelo processador. 
+Essa linguagem  é feitas totalmente por sinais elétricos  com duas tensões diferentes: Uma alta(lá pelos seus 3v) e uma baixa(perto de 0v), 
+onde a tensão alta representa o 1 e a tensão baixa representa o 0.
 
  O usuário interagira com o computador, dando a ele instruções do que deve ser feito, essas instruções vão direto
 para a CPU onde é processado os dados seguindo as instruções previamente colocadas.
@@ -49,7 +56,8 @@ para a CPU onde é processado os dados seguindo as instruções previamente colo
 
  Os dispositivos de saída desempenham um papel significativo na informação, transformando os dados que estão no computador em uma linguagem identificável para o receptor.
 
-Por exemplo, sempre que tocamos uma música no computador, ele processa o arquivo e faz com que o som saia pelos alto-falantes. Assim, podemos ouvir. Outro exemplo é o uso da impressora, que é capaz de transformar um arquivo digital em algo físico.
+Por exemplo, sempre que tocamos uma música no computador, ele processa o arquivo e faz com que o som saia pelos alto-falantes. Assim, podemos ouvir. Outro exemplo é o 
+uso da impressora, que é capaz de transformar um arquivo digital em algo físico.
 
  Inversamente à unidade de entrada, o nome genérico unidade de saída é qualquer dispositivo que transfere dados gravados na memória para um meio externo ao computador.
 
