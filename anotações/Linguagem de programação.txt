@@ -1,7 +1,9 @@
                                        LINGUAGEM DE PROGRAMAÇÃO
 
- Diferente de linguagens naturais, que servem como veículos de comunicação entre pessoas, as linguagens de programação são artificiais, criadas para interagir com uma máquina. Os programadores usam um conjunto de regras
-léxicas, sintáticas e semânticas para criar programas informáticos. Um programa representa uma sequência de instruções ou ordens que permitem a um computador resolver um problema ou desenvolver uma função.
+ Diferente de linguagens naturais, que servem como veículos de comunicação entre pessoas, as linguagens 
+de programação são artificiais, criadas para interagir com uma máquina. Os programadores usam um conjunto de regras
+léxicas, sintáticas e semânticas para criar programas informáticos. Um programa representa uma sequência de 
+instruções ou ordens que permitem a um computador resolver um problema ou desenvolver uma função.
 
  Programador e máquina se comunicam por meio dessas linguagem. permitindo especificar, com precisão aspectos como:
 
@@ -9,7 +11,8 @@ léxicas, sintáticas e semânticas para criar programas informáticos. Um progr
 - como esse dado deve ser armazenado ou transmitido:
 - quais ações o software deve executar, de acordo com cada circunstância variável.
 
- Desde que surgiram as primeiras máquinas programáveis, forma mais de 9000 linguagens criadas e esse número cresce a cada ano. Algumas destas linguagens se restringem a usos específicos, enquanto outras possuem uma aplicação mais
+ Desde que surgiram as primeiras máquinas programáveis, forma mais de 9000 linguagens criadas e esse número cresce 
+a cada ano. Algumas destas linguagens se restringem a usos específicos, enquanto outras possuem uma aplicação mais
 ampla, o que as torna mais populares entre os programadores.
 
 *Tipos de linguagem de programação.
@@ -19,27 +22,39 @@ classificados em três tipos principais: linguagem de máquina, linguagem de bai
 
 
 - Linguagem de Máquina ou código binário:
- É o único tipo de linguagem que pode ser lido pelo hardware do computador através da CPU. A linguagem de máquina utiliza códigos binários. 
+ É o único tipo de linguagem que pode ser lido pelo hardware do computador através da CPU. A linguagem de máquina 
+utiliza códigos binários. 
 
  Todas as instruções são codificadas pelos 0 e 1, sob a forma de cadeia de informações. 
-Estes dígitos indicam a tensão da corrente elétrica; são sinais de baixa e alta voltagem, que permitem que a máquina interprete e execute qualquer indicação.
+Estes dígitos indicam a tensão da corrente elétrica; são sinais de baixa e alta voltagem, que permitem 
+que a máquina interprete e execute qualquer indicação.
  
- A linguagem de máquina ou código binário é difícil de ser decifrada por humanos, por isso não costumam ser utilizada diretamente por programadores.
+ A linguagem de máquina ou código binário é difícil de ser decifrada por humanos, por isso não costumam ser utilizada 
+diretamente por programadores.
 
 - Linguagens de Baixo nível:
- As linguagens de baixo nível são as mais próximas do hardware do computador. Elas são compostas por instruções que são facilmente compreendidas pelo computador, mas que são difíceis para os humanos entenderem. Isso ocorre porque as linguagens de baixo nível são muito específicas e descrevem detalhes técnicos do hardware. 
+ As linguagens de baixo nível são as mais próximas do hardware do computador. Elas são compostas por instruções que 
+são facilmente compreendidas pelo computador, mas que são difíceis para os humanos entenderem. Isso ocorre porque as 
+linguagens de baixo nível são muito específicas e descrevem detalhes técnicos do hardware. 
  
-Cada linguagem de montagem foi criada para uma arquitetura específica de processador como o x86 ou ARM e não pode ser exportada para outros computadores.
+Cada linguagem de montagem foi criada para uma arquitetura específica de processador como o x86 ou ARM e não pode ser 
+exportada para outros computadores.
 
  Os comandos são compostos por símbolos, números e/ou letras, sem qualquer sintaxe na apresentação deles. Por esse
-motivo, a torna pouco intuitiva visualmente e, até mesmo ao nível de estudo, um ponto negativo para programadores de carreira e iniciantes.
+motivo, a torna pouco intuitiva visualmente e, até mesmo ao nível de estudo, um ponto negativo para programadores de 
+carreira e iniciantes.
 
- As linguagens de baixo nível dão usadas principalmente em aplicações que exigem alto desempenho e controle preciso do hardware. Exemplo de linguagens de baixo nível  é a Assembly.
+ As linguagens de baixo nível dão usadas principalmente em aplicações que exigem alto desempenho e controle preciso 
+do hardware. 
+Exemplo de linguagens de baixo nível  é a Assembly.
 
 - Linguagens de alto nível:
- São as linguagens de programação mais comuns, já que são facilmente entendidas por seres humanos. O uso de declarações em inglês permite criar um código simples e compreensível. 
+ São as linguagens de programação mais comuns, já que são facilmente entendidas por seres humanos. O uso de declarações 
+em inglês permite criar um código simples e compreensível. 
 
- Cada linguagem de alto nível tem palavras-chaves previamente determinadas e um conjunto de regras chamado "sintaxe". Para converter uma linguagem de auto nível em código binário, são utilizados compiladores ou intérpretes. Assim, o computador consegue cumprir as indicações.
+ Cada linguagem de alto nível tem palavras-chaves previamente determinadas e um conjunto de regras chamado "sintaxe".
+Para converter uma linguagem de auto nível em código binário, são utilizados compiladores ou intérpretes. 
+Assim, o computador consegue cumprir as indicações.
 
  Estas linguagens de programação são mais universais e podem ser utilizadas em qualquer tipo de sistemas.
 Exemplos de linguagens de alto nível: Python, Java, C++, C, C#, PHP, JavaScript.
@@ -53,22 +68,31 @@ Exemplos de linguagens de alto nível: Python, Java, C++, C, C#, PHP, JavaScript
 para o computador(Código binário).
 
  A escolha entre linguagens interpretadas e compiladas dependerá das necessidades do projeto e das preferências
-do desenvolvedor. As linguagens interpretadas são mais fáceis de aprender, enquanto as linguagens compiladas oferecem maior performance e segurança.
+do desenvolvedor. As linguagens interpretadas são mais fáceis de aprender, enquanto as linguagens compiladas oferecem 
+maior performance e segurança.
 
 
  - linguagens compiladas:
- As linguagens compiladas são linguagens que passam por um programa chamado "compilador" que converte diretamente esse código fonte em binário. Sendo assim, por serem convertidos de uma forma mais direta, eles tendem a ser mais rápidos e eficientes em sua execução do que as interpretadas, possibilitando também um maior controle do programador, principalmente nos aspectos de hardware e no uso da CPU.
+ As linguagens compiladas são linguagens que passam por um programa chamado "compilador" que converte diretamente esse 
+código fonte em binário. Sendo assim, por serem convertidos de uma forma mais direta, eles tendem a ser mais rápidos e 
+eficientes em sua execução do que as interpretadas, possibilitando também um maior controle do programador, principalmente 
+nos aspectos de hardware e no uso da CPU.
 
- Além de ser um processo extremamente prático, pois a compilação é feita de forma completa, ou seja, não é necessário ficar repetindo o processo desnecessariamente. Em contrapartida, uma de suas desvantagens é a dependência do "compilador" caso seja necessário realizar qualquer outra conversão.
+ Além de ser um processo extremamente prático, pois a compilação é feita de forma completa, ou seja, não é necessário ficar 
+repetindo o processo desnecessariamente. Em contrapartida, uma de suas desvantagens é a dependência do "compilador" caso seja
+necessário realizar qualquer outra conversão.
 
 As linguagens que podem ter interpretações compiladas são: C, C++, C#, entre outras.
 As compiladas puras são: C, C++, Erlang, Harkell, Rust e Go
 
 
 - Linguagens Interpretadas:
- As linguagens interpretadas passam por um processo similar a compilação. Sua maior diferença é de que o programa utilizado para converter se chama "interpretador", que ao invés de fazer a total conversão de uma vez só, ele fará a conversão analisando do códigos linha por linha, em um processo minucioso e lento, ao contrário do que acontece com o compilador.
+ As linguagens interpretadas passam por um processo similar a compilação. Sua maior diferença é de que o programa utilizado para 
+converter se chama "interpretador", que ao invés de fazer a total conversão de uma vez só, ele fará a conversão analisando do 
+códigos linha por linha, em um processo minucioso e lento, ao contrário do que acontece com o compilador.
 
- Umas de suas vantagens é de que, no "interpretador", como o processo acaba sendo minucioso e detalhado, é possível visualizar com mais facilidade os erros e problemas que possivelmente seriam encontrados, evitando qualquer tipo de "bug".
+ Umas de suas vantagens é de que, no "interpretador", como o processo acaba sendo minucioso e detalhado, é possível visualizar com 
+mais facilidade os erros e problemas que possivelmente seriam encontrados, evitando qualquer tipo de "bug".
 
 As linguagens interpretadas mais comuns são: JavaScript, Python, PHP, Ruby. 
 
