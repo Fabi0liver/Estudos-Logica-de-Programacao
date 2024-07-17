@@ -1,0 +1,25 @@
+                                            PROGRAMAS
+
+O Programa é um agrupamento de comandos escritos em uma linguagem de programação. Estes comandos, ou instruções, criam as ações dentro do programa, e permitem seu funcionamento.
+
+Cada ação é determinada por sequencia, e cada sequencia se agrupa para formar o programa em si. estes comandos se unem, criando um programa complexo.
+
+
+                                          PROGRAMAÇÃO
+
+ A programação pode ser definida com o ato de escrever instruções para que máquinas sejam capazes de executar uma 
+determinada função.
+
+ Dessa forma, a partir de um conjuntos de códigos, as pessoas se comunicam com os computadores e são capazes de configurá-los para execução de alguma tarefa específica.
+
+ A Programação lida com os diversos componentes do computador, que são manipulados para desenvolver um simples 
+comando ou até mesmo sistemas mais complexos.
+
+ Como os computadores não possuem uma consciência própria do que deve ser feito, afinal, são máquinas, é necessário que seres humanos os programem.
+
+ O grande diferencial é que após receber as instruções, esses equipamentos possuem uma velocidade de processamento
+extremamente maior do que a nossa. Por isso, precisamos definir regras bem detalhadas e instruí-los cuidadosamente
+para que realizem alguma ação.
+
+
+
