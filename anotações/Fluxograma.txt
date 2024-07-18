@@ -4,7 +4,8 @@
 sequência de atividades e decisões envolvidas. Ele é como um mapa visual que guia você através de todas as etapas,
 desde o início até o fim do processo.
  
- O objetivo principal de um fluxograma é mostrar as etapas e atividade de um processo de forma lógica e de fácil compreensão. Ele quebra o processo em pedaços menores e mais gerenciáveis, permitindo que você veja claramente
+ O objetivo principal de um fluxograma é mostrar as etapas e atividade de um processo de forma lógica e de fácil 
+compreensão. Ele quebra o processo em pedaços menores e mais gerenciáveis, permitindo que você veja claramente
 como tudo se conecta.
 
  Algumas das vantagens de um fluxograma incluem:
@@ -21,16 +22,21 @@ como tudo se conecta.
 * Tipos de fluxograma:
 
  Existem diferentes tipos de fluxograma, cada um com suas própria característica e aplicações. Alguns dos mais 
-comuns são: Fluxograma linear, Fluxograma funcional, Fluxograma de blocos. Fluxograma de produção, Fluxograma administrativo, entre outros.
+comuns são: Fluxograma linear, Fluxograma funcional, Fluxograma de blocos. Fluxograma de produção, 
+Fluxograma administrativo, entre outros.
 
  Os dois mais usados na criação de algoritmo de programação são: Fluxograma Linear e o Fluxograma funcional.
 
 
 - Fluxograma Linear é um diagrama que exibe a sequência de trabalho com o acréscimo dos pontos de decisões durante 
-o fluxo. Sua abrangência pode auxiliar os processos na identificação de gargalos, retrabalhos e redundâncias nos processos. Geralmente é utilizado para explicar o funcionamento de determinada tarefa.
+o fluxo. Sua abrangência pode auxiliar os processos na identificação de gargalos, retrabalhos e redundâncias nos processos. 
+Geralmente é utilizado para explicar o funcionamento de determinada tarefa.
 
 
--Fluxograma Funcional é um diagrama que divide os processos entre as áreas e departamentos. Sua funcionalidade é essencial para o processo que engloba diferentes atividades mas que representam um único fluxo de entrada e saída. É ótimo para integrar as diferentes pessoas que são responsáveis pelos processos e como elas interagem.
+-Fluxograma Funcional é um diagrama que divide os processos entre as áreas e departamentos. 
+Sua funcionalidade é essencial para o processo que 
+engloba diferentes atividades mas que representam um único fluxo de entrada e saída. 
+É ótimo para integrar as diferentes pessoas que são responsáveis pelos processos e como elas interagem.
 
 
 
