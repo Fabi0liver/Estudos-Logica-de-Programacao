@@ -36,13 +36,14 @@ qualquer outro dispositivo pode interpretar e executar, resultando na resoluçã
 programa ou para que um problema seja resolvido. Ela organiza essa série de ações de forma coesa e coerente.
 
  A lógica de programação não está diretamente ligada a uma linguagem de programação específica, mas sim aos princípios
-universais que guiam o desenvolvimento de software. É, portanto, um ponto de partida essencial para quem deseja aprender a programar.
+universais que guiam o desenvolvimento de software. É, portanto, um ponto de partida essencial para quem deseja 
+aprender a programar.
 
 
  * Conceitos básicos da lógica de programação:
 
- Os conceitos básicos da lógica de programação são os princípios fundamentais que guiam o desenvolvimento de algoritmos e programas de
-computador. Eles são universais, logo, estão presentes e se repetem em basicamente todas as linguagens.
+ Os conceitos básicos da lógica de programação são os princípios fundamentais que guiam o desenvolvimento de algoritmos 
+e programas de computador. Eles são universais, logo, estão presentes e se repetem em basicamente todas as linguagens.
 
 - Algoritmo: Um algoritmo é uma sequência de etapas bem definidas e organizadas que descrevem como resolver um problema ou 
 realizar uma tarefa. Ele serve como um plano detalhado que orienta a execução de ações específicas para alcançar um objetivo.
