@@ -1,0 +1,70 @@
+                                            Sequência logica
+
+ A sequência lógica pode ser descrita como um conjunto de instruções que devem ser seguidas para se cumprir uma determinada tarefa. São passos executados até atingir um objetivo ou solução de um problema.
+ 
+ A sequência lógica pode ser descritas como um conjunto de instruções que devem ser seguidas para se cumprir uma determinada tarefa. São os passos executados até atingir um objetivo ou solução de um problema.
+
+ As instruções são cada um dos passos, cada uma das ações e tomar (obedecendo a sequência lógica). Em programação,
+é o que indica a um computador uma ação elementar a executar. Por exemplo: "Somar", "Subtrair", "Comparar", etc.
+                                          
+
+
+                                                ALGORITMO
+
+"Um algoritmo é uma sequência lógica  finita de instruções bem claras, bem definidas e bem detalhadas que, quando colocadas em uma ordem lógica, levam-nos á solução de um problema. Podemos pensar em algoritmo como uma receita, uma sequência de instruções que dão cabo de uma meta específicas. Essas tarefas não podem ser redundantes nem subjetivas na sua definição, e sim, devem ser claras e precisas."
+
+ Quando você está escrevendo um programa, você o faz na forma de linhas de código, usando uma entre as diversas linguagens de programação que existem. No entanto, antes de começar a escrever o código e preciso definir o que você quer que seu programa faça. Para isso, é preciso definir uma série de regras e passos que o programa deverá
+executar, como forma de realizar a tarefa desejada.
+
+ O algoritmo é esse conjunto de regras. De maneira geral, ele compreende uma sequência finita de ações executáveis(passos) para resolver um problema, ou no caso mais comum em programação, executar uma tarefa. 
+
+ O algoritmo em si não é o programa, mas a sequência lógica de ações e condições que devem ser obedecidas para que o problema seja resolvido. Um algoritmo pode ser executado por um computador, por um outro tipo de autômato, ou mesmo por um ser humano. Por exemplo: Os passo para fazer um bolo, é um algoritmo; ir ao supermercado e compra algo e voltar pra casa, e um algoritmo.
+
+ Um bom algoritmo resolve um problema de forma precisa na prática, não é importante se ter apenas um algoritmo, mas sim, um bom algoritmo. O que importa é sua correção, isto é, se ele resolve realmente o problema prosto e o faz realmente.
+
+Para se ter um bom algoritmo, é preciso:
+
+- Que se tenha um número finito de passos 
+- Que exista apenas uma ação(passo) por linha
+- Que cada passo esteja precisamente definido, sem possíveis ambiguidades
+- Que exista zero ou mais entradas tomadas de conjunto bem definidos
+- Que exista uma ou mais saídas
+- Que exista uma condição de fim sempre atingida para quaisquer entradas e em um tempo finito.
+
+E importante lembrar que:
+
+- Não existe apenas um algoritmo para a solução de um problema. São varias maneiras possíveis para escrever um algoritmo. Umas mais diretas, outras mais longas e detalhadas.
+- Um algoritmo pode ser numérico
+
+Para que um computador possa desempenhar uma tarefa, é necessário que esta detalhada passo a passo, em uma forma compreensível pela máquina.
+
+Uma forma de montar uma algoritmo e primeiro dividir o problema apresentado em três fases fundamentais onde temos:
+
+- Entrada: onde as condições do algoritmo e iniciada e descrita
+- Processo: São os passos do algoritmos até o resultado
+- Saída: É o fim do processo do algoritmo, onde a tarefa e comprida ou problema resolvido.
+
+ Existem várias formas de representar um algoritmo, as mais comuns são: a descrição narrativa, o fluxograma e o pseudocódigo.
+
+- A descrição narrativa consiste em analisar o enunciado do problema e escrever, utilizando uma linguagem natural(por exemplo, o português estruturado ou Portugol), os passos que  devem ser seguidos para resolução do problema.
+     
+     Vantagem: não é necessário aprender nenhum conceito novo, pois a língua natural, já conhecida.
+     Desvantagem: a língua natural abre espaço pra diferentes interpretações, ambiguidades, o que posteriormente
+                  dificultará a transição deste algoritmo para o programa.
+
+- O fluxograma consiste em analisar o enunciado do programa e escrever, utilizando símbolos gráficos(Retângulos, círculos, setas, trapézios,...) predefinidos, os passos que devem ser seguidos para resolução do problema.
+
+    Vantagem: A compreensão de elementos gráficos é mais fácil do que a de textos.
+    Desvantagem: é necessário aprender a simbologia dos fluxogramas e, além disso, o algoritmo resultante não
+                apresenta muitos detalhes, dificultando a sua transcrição para um programa.
+
+- O Pseudocódigo consiste em analisar o enunciado do programa e escrever, utilizando uma pseudo-linguagem de programação, os passos que devem ser seguidos para resolução do problema.
+
+    vantagem: a passagem do algoritmo para qualquer linguagem de programação é praticamente imediata, basta 
+             conhecer as palavras características da linguagem de programação escolhida.
+    Desvantagem: é necessário aprender as regras do pseudocódigo utilizado.
+
+
+
+
+
