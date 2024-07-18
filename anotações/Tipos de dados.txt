@@ -1,14 +1,17 @@
                                            TIPOS DE DADOS
 
  Um tipo de dado nada mais que é algo do mundo real que pode ser representado computacionalmente. Por exemplo, os 
-números que pertencem ao conjunto dos números inteiros, os números que pertencem ao conjunto dos números reais, letras, caracteres especiais, acentuação, pontuação, palavras, etc.
+números que pertencem ao conjunto dos números inteiros, os números que pertencem ao conjunto dos números reais, 
+letras, caracteres especiais, acentuação, pontuação, palavras, etc.
 
  As linguagens de programação implementam formas de representar e manipular esses dados, que podem ser classificados
 em dois grupos: os tipos de dados primitivos e os tipos de dados não primitivos.
 
- Os tipos de dados primitivos são os tipos básicos que devem ser implementados por as linguagens de programação, como os números reais, inteiros, booleanos, caracteres e strings.
+ Os tipos de dados primitivos são os tipos básicos que devem ser implementados por as linguagens de programação, 
+como os números reais, inteiros, booleanos, caracteres e strings.
 
- Os tipos de dados não primitivos, normalmente são os vetores, matrizes, classes, enumerações, etc., que costumam ser estruturas de dados mais complexos do que os tipos de dados primitivos.
+ Os tipos de dados não primitivos, normalmente são os vetores, matrizes, classes, enumerações, etc., que costumam
+ser estruturas de dados mais complexos do que os tipos de dados primitivos.
 
  O tipo de dado caracteriza um conjunto de valores, determinando a "natureza", o "tamanho", a "representação" e a
 "imagem" ou "faixa de representação".
@@ -19,22 +22,27 @@ real ou um valor booleano.
 - A representação determina a forma como o bits armazenados devem ser interpretado.
 - A imagem ou faixa de representação determina a faixa de valores válidos para o tipo.
 
-Algo importante sobre os tipos de dados, e que quase ninguém se dá conta, é que eles devem primeiro ser possíveis de existirem, e de ser manipulados, pelo hardware. Isso significa que é o hardware quem diz quais os tipos de dados primitivos que podem ser processados por uma máquina computacional.
+Algo importante sobre os tipos de dados, e que quase ninguém se dá conta, é que eles devem primeiro ser possíveis 
+de existirem, e de ser manipulados, pelo hardware. Isso significa que é o hardware quem diz quais os tipos de dados
+primitivos que podem ser processados por uma máquina computacional.
 
 
 * Tipos de dados Primitivos ou básico:
 
-Os tipos de dados primitivos são os blocos básicos da programação. Eles são os tipos de dados mais simples e diretos, representando valores individuais. Esses tipo de dados primitivos são geralmente suportado por todas
+Os tipos de dados primitivos são os blocos básicos da programação. Eles são os tipos de dados mais simples e diretos, 
+representando valores individuais. Esses tipo de dados primitivos são geralmente suportado por todas
 as linguagens de programação. 
 
 Os tipos de dados primitivos são:
 
 - Inteiro: representa números inteiros, positivos ou negativos, sem parte decimal. Exemplo: 10, -5, 0.
 - Reais ou Ponto Flutuante: representa números reais e inclui uma parte decimal. Exemplo: 3.4, - 7.5, 5.0, 3/2.
-- Caractere: também são conhecido de alfanumérico porque compõem de letras, e números, símbolos. Do tipo que é definido entre aspas(simples ou duplas). Exemplo: 'S', 'a', "?", "40".
+- Caractere: também são conhecido de alfanumérico porque compõem de letras, e números, símbolos. Do tipo que é definido
+entre aspas(simples ou duplas). Exemplo: 'S', 'a', "?", "40".
 - Booleano: representa um valor lógico verdadeiro ou falso. Exemplo: falso, verdadeiro, True, False, 1, 0.
 
-Esses tipos de dados primitivos são essenciais para realizar operações matemáticas, comparações e tomadas de decisão em programação. Eles fornecem a base para a criação de algoritmo e estruturas mais complexas.
+Esses tipos de dados primitivos são essenciais para realizar operações matemáticas, comparações e tomadas de decisão 
+em programação. Eles fornecem a base para a criação de algoritmo e estruturas mais complexas.
 
 
 
