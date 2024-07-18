@@ -1,0 +1,81 @@
+                                            FLUXOGRAMA
+
+ Um fluxograma de processo é uma representação gráfica de um processo, usando símbolos e formas para mostrar a 
+sequência de atividades e decisões envolvidas. Ele é como um mapa visual que guia você através de todas as etapas,
+desde o início até o fim do processo.
+ 
+ O objetivo principal de um fluxograma é mostrar as etapas e atividade de um processo de forma lógica e de fácil compreensão. Ele quebra o processo em pedaços menores e mais gerenciáveis, permitindo que você veja claramente
+como tudo se conecta.
+
+ Algumas das vantagens de um fluxograma incluem:
+
+- Facilita o entendimento do processo por todas as partes interessadas
+- Ajuda a identificar problemas, gargalos ineficiência
+- Permite visualizar oportunidades de melhoria e otimização
+- Os procedimentos documentados do fluxograma ajudam a promover comunicação clara e aumentar a eficiência
+- Serve como base pra treinamento e documentação do processo
+
+ Um fluxograma é uma ferramenta valiosa para qualquer pessoa que queira entender, documentar ou melhorar um processo.
+
+
+* Tipos de fluxograma:
+
+ Existem diferentes tipos de fluxograma, cada um com suas própria característica e aplicações. Alguns dos mais 
+comuns são: Fluxograma linear, Fluxograma funcional, Fluxograma de blocos. Fluxograma de produção, Fluxograma administrativo, entre outros.
+
+ Os dois mais usados na criação de algoritmo de programação são: Fluxograma Linear e o Fluxograma funcional.
+
+
+- Fluxograma Linear é um diagrama que exibe a sequência de trabalho com o acréscimo dos pontos de decisões durante 
+o fluxo. Sua abrangência pode auxiliar os processos na identificação de gargalos, retrabalhos e redundâncias nos processos. Geralmente é utilizado para explicar o funcionamento de determinada tarefa.
+
+
+-Fluxograma Funcional é um diagrama que divide os processos entre as áreas e departamentos. Sua funcionalidade é essencial para o processo que engloba diferentes atividades mas que representam um único fluxo de entrada e saída. É ótimo para integrar as diferentes pessoas que são responsáveis pelos processos e como elas interagem.
+
+
+
+* Simbologia do Fluxograma
+
+ Para criar um fluxograma eficiente, é fundamental conhecer os símbolos usados e seus significados. Esses símbolos
+são padronizados, o que facilita a interpretação do fluxograma por diferentes pessoas. 
+
+Alguns dos símbolos mais comuns são:
+
+- Retângulo arredondado: Representa o início ou fim do processo.
+- Retângulo: Representando uma atividade ou etapa do processo.
+- Losango: Indica um ponto de decisão, onde o fluxo pode seguir caminhos diferentes dependendo da resposta.
+- Seta: Mostra a direção do fluxo, conectando as atividades.
+- Círculo: Tem a finalidade de ligar um ponto(página) ao outro no fluxo.
+- Trapézio: Representa operação manual existente no processo
+
+ Além desses, existem muitos outros símbolos que podem ser usados dependendo da complexidade e do tipo de processo
+sendo feito.
+
+
+* Dicas do processo de fazer um Fluxograma:
+
+- Defina bem o processo a ser mapeado e seu objetivo
+- Liste todas as atividade e etapas envolvidas
+- Identifique os responsáveis por cada atividade
+- Desenhe os fluxograma usando os símbolos adequados
+- Analise o fluxo pra identificar problemas e melhorias
+- Envolva as pessoas que executaram o processo descrito no fluxograma
+- Mantenha o fluxograma simples e objetivo
+- Revise e atualize sempre que necessário
+- Use o fluxograma como base pra melhoria continua.
+
+O fluxograma é uma representação visual do processo, então e bom ter organização e clareza nas informações. 
+Usar cores, legendas e notas explicativas se necessário e bom para tornar tudo mais fácil de entender.
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
