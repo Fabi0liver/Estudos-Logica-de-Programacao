@@ -1,6 +1,8 @@
                                    CONVENÇÕES DE NOMENCLATURA
 
- Há diversas maneiras de aplicar boas práticas no código, uma delas é a conversão de nomenclatura, que são recomendações para nomear identificadores ajudando a tornar seu código mais limpo e fácil de compreender, mantendo um padrão para o leitor e até mesmo podendo fornecer informação sobre a função do identificador.
+ Há diversas maneiras de aplicar boas práticas no código, uma delas é a conversão de nomenclatura, que são 
+recomendações para nomear identificadores ajudando a tornar seu código mais limpo e fácil de compreender, 
+mantendo um padrão para o leitor e até mesmo podendo fornecer informação sobre a função do identificador.
 
  As convenções de nomenclatura que ditam como identificares de variáveis, funções, classe e outras entidade são 
 nomeados e formatados. Diferentes estilos de caso são usados para melhorar a legibilidade e aderir ás diretrizes
@@ -14,7 +16,8 @@ de várias linguagens de programação, frameworks ou projetos.
  Todas as letras do identificador são minúsculas, sem espaços entre as palavras.
 Não é comumente usada devido á  baixa legibilidade na leitura, especialmente em nomes mãos longos.
 
- Uso comum: Usado as vezes para nome de domínio ou identificadores de sistema onde espaços e caracteres especiais são restritos.
+ Uso comum: Usado as vezes para nome de domínio ou identificadores de sistema onde espaços e caracteres 
+especiais são restritos.
 
  Exemplo: convencoesdenomenclatura
 
@@ -29,7 +32,8 @@ em nome de arquivos, projetos ou títulos na documentação.
 
 
 - Camel case:
- As palavras do identificador são unidas sem espaços, cada palavra começa com uma letra maiúscula, exceto a primeira palavra do identificador.
+ As palavras do identificador são unidas sem espaços, cada palavra começa com uma letra maiúscula, exceto 
+a primeira palavra do identificador.
 
  Uso comum: Comumente usado para nome de variáveis e funções.
 
@@ -66,7 +70,8 @@ underline(_).
 - Kebab case:
  Envolve separar as palavras do identificador com hifens(-), e todas as letras normalmente são minúsculas.
 
- Uso comum: Não é comumente usado em linguagens de programação como identificador, porque hifens podem ser interpretados como o operador de subtração. No entanto, é predominante em URLs, nome de classe CSS e nomes de arquivos.
+ Uso comum: Não é comumente usado em linguagens de programação como identificador, porque hifens podem ser interpretados
+como o operador de subtração. No entanto, é predominante em URLs, nome de classe CSS e nomes de arquivos.
  
  Exemplo: convencoes-de-nomenclatura
 
@@ -80,21 +85,27 @@ underline(_).
 
 * Notas sobre a aplicação de um tipo de case:
 
-- A escolha o estilo de caso pode depender da linguagem de programação, dos padrões de codificação da equipe com qual está trabalhando ou preferência pessoal.
+- A escolha o estilo de caso pode depender da linguagem de programação, dos padrões de codificação da equipe com qual 
+está trabalhando ou preferência pessoal.
 
 - Consistência é a chave. Uma vez que um estilo de caso é escolhido para um tipo particular de identificador (por
 exemplo, variável, classe), é uma prática recomendada mantê-lo durante todo o processo do código.
 
-- Alguns ambientes de programação são mais sensíveis a maiúsculas e minúsculas, enquanto outros não. Este é outro fator que influencia a escolha e a consistência do uso do estilo de maiúscula e minúsculas.
+- Alguns ambientes de programação são mais sensíveis a maiúsculas e minúsculas, enquanto outros não. Este é outro fator 
+que influencia a escolha e a consistência do uso do estilo de maiúscula e minúsculas.
 
-- Ao trabalhar em equipe ou contribuir para projetos de código aberto, aderir ás diretrizes de estilo de caso estabelecida é importante para manter a legibilidade e a consistência do código.
+- Ao trabalhar em equipe ou contribuir para projetos de código aberto, aderir ás diretrizes de estilo de caso 
+estabelecida é importante para manter a legibilidade e a consistência do código.
 
  
- As convenções de nomenclatura preferidas podem varias com base na linguagem de programação, prática da comunidade e, as vezes, até mesmo nas estruturas ou bibliotecas específicas sendo usadas dentro da linguagem.
+ As convenções de nomenclatura preferidas podem varias com base na linguagem de programação, prática da comunidade e, 
+as vezes, até mesmo nas estruturas ou bibliotecas específicas sendo usadas dentro da linguagem.
 
-Exemplo: O guia de estilo do Python (PEP 8) indica o "Snake Case" pra variáveis e funções, e o "Screaming Snake Case" para as constantes.
+Exemplo: O guia de estilo do Python (PEP 8) indica o "Snake Case" pra variáveis e funções,
+e o "Screaming Snake Case" para as constantes.
 
- Essas são as convenções gerais, mas é sempre melhor consultar o guia do estilo específico ou os padrões de comunidade para a linguagem com a qual está trabalhando, pois as práticas podem evoluir com o tempo.
+ Essas são as convenções gerais, mas é sempre melhor consultar o guia do estilo específico ou os padrões de 
+comunidade para a linguagem com a qual está trabalhando, pois as práticas podem evoluir com o tempo.
  
 
 
