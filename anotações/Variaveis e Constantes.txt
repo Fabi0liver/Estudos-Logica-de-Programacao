@@ -1,6 +1,7 @@
                                     VARIÁVEIS E CONSTANTES
 
- Tanto as variáveis quanto as constantes são recipientes (endereços de memória) que armazenam informações de um determinado tipo, para que seja possível a manipulação delas pelos programas.
+ Tanto as variáveis quanto as constantes são recipientes (endereços de memória) que armazenam informações de
+um determinado tipo, para que seja possível a manipulação delas pelos programas.
 
  As informações contidas nas variáveis podem ser modificadas no decorrer do programa, enquanto as informações
 relacionadas a constantes não podem.
@@ -26,15 +27,19 @@ número ou palavra.
 
  Se pode modificar as variáveis durante a execução do programa, ou seja, pode se atualizar ao longo do tempo o valor
 que as variáveis armazenam. no entanto, é importante ressaltar que, embora possa assumir diferentes valores, ela só
-pode armazenar um valor a cada instante. Em outras palavras, a cada atualização do valor da variável, o valor anterior é substituído pelo novo valor.
+pode armazenar um valor a cada instante. Em outras palavras, a cada atualização do valor da variável, o valor anterior
+é substituído pelo novo valor.
   
- Além disso, é comum que se escolha os nome das variáveis de forma descritiva, pra que o programador possa entender facilimamente o que está sendo armazenado. Por exemplo, em um programa de cálculo de média, a variável "nota" pode armazenar as notas doas alunos.
+ Além disso, é comum que se escolha os nome das variáveis de forma descritiva, pra que o programador possa entender
+facilimamente o que está sendo armazenado. Por exemplo, em um programa de cálculo de média, a variável "nota" pode 
+armazenar as notas doas alunos.
 
  Uma variável na programação é caracterizada por:
 
 - O nome exclusivo que a identifica dentro do programa
 - O valor salvo que pode mudar durante a execução do programa
-- O extensão ou escopo , que pode ser global, em caso de acessada de qualquer lugar no programa, ou local, quando só pode ser acessada dentro de um bloco de código
+- O extensão ou escopo , que pode ser global, em caso de acessada de qualquer lugar no programa, ou local, quando só
+pode ser acessada dentro de um bloco de código
 - O tipo de dado armazenado, como números, textos, estados booleanos e assim por diante.
 
 
@@ -59,9 +64,11 @@ espaço na memória para armazenamento de seus dados.
  A maneira de criar uma variável na programação varia em diferentes linguagens de programação. No pseudocódigo 
 Portugol por exemplo as variáveis são declaradas assim: " Tipo_de_dados  Nome_da_variavel"
 
- Para atribuir um valor a variável, e usado o "=" (ou <- em alguns pseudocódigos), que estabelece a relação entr o identificador da variável e o valor armazenado nela.
+ Para atribuir um valor a variável, e usado o "=" (ou <- em alguns pseudocódigos), que estabelece a relação entr o 
+identificador da variável e o valor armazenado nela.
 
-As variáveis podem ser declaradas no inicio do programa ou em outras partes do programa(ficando atento a ser declarada antes do uso).
+As variáveis podem ser declaradas no inicio do programa ou em outras partes do programa(ficando atento a ser 
+declarada antes do uso).
 
  Para declarar uma  variável e bom ficar atento a sintaxe básica. Por exemplo:
 
@@ -80,11 +87,12 @@ underline(_) ou mude de letras minúscula pra maiúscula a primeira letra da pal
 strings, endereços de memória, dentre outros.
 
  Para facilitar a sua identificação no código, nomeamos as constantes em letras maiúsculas. Também podemos 
-defina-las em diferentes partes de um programa dependendo da linguagem de programação utilizada. Em algumas linguagens, o programador define as constantes no início do programa, em outras, ele pode defini-las em um módulo
-separado.
+defina-las em diferentes partes de um programa dependendo da linguagem de programação utilizada. Em algumas linguagens, 
+o programador define as constantes no início do programa, em outras, ele pode defini-las em um módulo separado.
 
  Umas das principais  vantagens de uso de constantes em um programa é a facilidade de manutenção e modificação do 
-código. Ao usar elementos de programação para representar valores fixos, é possível modificar esses valores de maneira centralizada e alterar seu comportamento em todo o programa.
+código. Ao usar elementos de programação para representar valores fixos, é possível modificar esses valores de maneira 
+centralizada e alterar seu comportamento em todo o programa.
 
 Exemplos de Constantes:
 
@@ -93,7 +101,8 @@ Exemplos de Constantes:
 - Velocidade da luz
 
 
- Para declarar uma constante em um programa, deve-se seguir as regras definida pela linguagem de programação utilizada. Mas uma forma comum  de declarar é: "<Constante(const)>...<tipo da variável> "
+ Para declarar uma constante em um programa, deve-se seguir as regras definida pela linguagem de programação utilizada.
+Mas uma forma comum  de declarar é: "<Constante(const)>...<tipo da variável> "
 
 
 
