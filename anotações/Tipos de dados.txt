@@ -37,12 +37,31 @@ Os tipos de dados primitivos são:
 
 - Inteiro: representa números inteiros, positivos ou negativos, sem parte decimal. Exemplo: 10, -5, 0.
 - Reais ou Ponto Flutuante: representa números reais e inclui uma parte decimal. Exemplo: 3.4, - 7.5, 5.0, 3/2.
-- Caractere: também são conhecido de alfanumérico porque compõem de letras, e números, símbolos. Do tipo que é definido
-entre aspas(simples ou duplas). Exemplo: 'S', 'a', "?", "40".
+- Caractere: também são conhecido de alfanumérico porque compõem de letras, e números, símbolos. Do tipo que é definido entre aspas(simples ou duplas). Exemplo: 'S', 'a', "?", "40".
 - Booleano: representa um valor lógico verdadeiro ou falso. Exemplo: falso, verdadeiro, True, False, 1, 0.
 
 Esses tipos de dados primitivos são essenciais para realizar operações matemáticas, comparações e tomadas de decisão 
 em programação. Eles fornecem a base para a criação de algoritmo e estruturas mais complexas.
+
+
+* Tipos de dados Compostos ou não primitivos:
+
+ Os tipos de dados compostos, também conhecidos como tipos de dados complexos ou não primitivos, podem ser um
+conjunto de tipos de dados que armazenam vários valores, ao contrário dos tipos de dados primários, que só armazenar um valor de cada vez.
+
+- cadeias de caracteres ou strings: representada por uma sequência de caracteres entre aspas. Exemplo: " Esta é uma cadeia de caracteres.".
+
+- Arrays ou Vetores: é uma estrutura de dados que armazena uma sequência de dados, todos do mesmo tipo, e que é acessados através da sua posição ou índice.
+
+- Sets ou Conjuntos: são estruturas de dados nas quais não admitem repetição, nem possuem ordem definida.
+
+- Unions ou União: e tipo de estrutura no qual é possível armazenar  dados de diferentes tipos em uma mesmo posição de memória.
+
+-Registros: Enquanto arrays permite armazenar vários dados de um único tipo, o Registro permite armazenar mais de um tipo de dados.
+
+
+
+
 
 
 
