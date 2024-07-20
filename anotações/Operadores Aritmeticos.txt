@@ -1,0 +1,95 @@
+                                     OPERADORES ARITMÉTICOS
+	
+ Os operadores aritméticos são componentes fundamentais de linguagem de programação que permitem que  os desenvolvedores realizem operações matemáticas em tipo de dados numéricos. Esses operadores permitem a manipulação
+de valores numéricos, tornando-os essenciais para várias tarefas computacionais.
+
+ Eles operam em operandos(variáveis ou valores) para produzir um resultado. Os operadores aritméticos básicos na 
+maioria das linguagens de programação incluem adição(+), subtração(-), multiplicação(*) e divisão (/), há operadores mais avançados como módulo(%), potência ou exponenciação (**), e operadores unários como mais(+) e unário menos(-).
+
+ Aqui está uma visão geral detalhada dos operadores aritméticos comuns usados na programação:
+
+- Adição (+)
+ O operador de adição é usado para somar dois valores, seja eles inteiros ou reais. É uma das operações aritméticas
+mais fundamental e é usada comumente em cálculos pra encontrar a soma de dois ou mais números.
+ 
+ Exemplo:   a = 10
+            b = 20
+            soma = a + b  # resultado: 30
+
+
+-Subtração (-)
+ O operador de subtração é usado pra subtrair um valor de outro. É usado para encontra a diferença entre dois números ou para realizar negação.
+
+ Exemplo:  a = 30
+           b = 10
+           diferença = a - b  # resultado 20
+
+
+- Multiplicação (*)
+
+ O operador de multiplicação é usado para multiplicar dois valores juntos. É usado em cálculos para encontrar o produto de dois ou mais números.
+
+ Exemplo:  a = 5
+           b = 6
+
+           produto = a * b  #resultado: 30
+
+
+- Divisão (/)
+ O operador de divisão é usado para dividir um valor por outro. Ele é muito usado para encontrar o quociente de dois números.
+ Observe que a divisão por zero pode resultar em um erro ou comportamento indefinido, dependendo da linguagem de programação.
+
+ Exemplo:  a = 20
+	   b = 5
+	   quociente = a / b  # resultado: 4.0
+
+
+- Módulo (%)
+ O operador de módulo retorna o resto da divisão de um valor por outro. É comumente usado em tarefas de programação
+envolvendo repetição, ciclos ou determinação se um número é par ou ímpar.
+
+ Exemplo:  Numerador = 17
+           denominador = 5
+           resto =  numerador % denominador  # resultado: 2
+
+
+- Potência ou Exponenciação (**)
+ O operador de exponenciação retorna a resultado de elevar o primeiro operando á potência do próximo operando.
+
+ Exemplo: a = 2
+          b = 3
+          potência = a ** b   resultado : 8
+
+
+- Unário Mais (+) e Unário Menos (-)
+ O unário mais e o unário menos são operadores usados para denotar positividade ou negatividade de um valor, respectivamente.
+
+ Exemplo: num_positivo = +5  resultado :  5
+          num_negativo = -8  resultado : -8
+
+
+- Incremento (++) e Decremento (--)
+ Os operadores de incremento e decremento são usados para aumentar ou diminuir o valor de uma variável em um, respectivamente.
+Nota: Esses operadores podem não estar disponíveis em todas as linguagens de programação.
+
+ Exemplo: contador = 10
+          contador ++  # próxima contador = 11
+          contador --  # próxima contador = 9
+
+
+* Precedência entre os operadores aritméticos
+
+ As mesma forma que na matemática, os operadores de multiplicação e divisão têm precedência de execução em relação aos operadores de soma e subtração. Aliás se tiver parênteses na expressão este tem precedência ainda maior.
+
+ Abaixo indica a precedência dos operadores:
+
+ 1º- Parênteses internos
+ 2º- Potência e raiz (quando a linguagem oferece esses operadores)
+ 3º- multiplicação, divisão, módulo
+ 4º- soma e subtração
+
+ Os operadores de mesma prioridade são interpretado da esquerda para a direita.
+
+
+
+
