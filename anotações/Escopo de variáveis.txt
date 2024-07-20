@@ -1,75 +1,105 @@
                                        ESCOPO DE VARIÁVEIS
 
- Em essência, o escopo se refere ao contexto ou ambiente no qual as variáveis são declaradas e podem ser acessadas, determina a visibilidade e o tempo de vida de uma variável, determinando onde no código uma variável específica é valida e acessível.
+ Em essência, o escopo se refere ao contexto ou ambiente no qual as variáveis são declaradas
+e podem ser acessadas, determina a visibilidade e o tempo de vida de uma variável, determinando
+onde no código uma variável específica é valida e acessível.
 
- Uma sólida compreensão do escopo é indispensável porque ele pode afetar como o código se comporta e interage com outras partes do programa. O escopo não é uma mera questão técnica, ele influencia profundamente a maneira como se
-estruturar código, gerencia seus dados e evita conflitos entre variáveis.
+ Uma sólida compreensão do escopo é indispensável porque ele pode afetar como o código se comporta
+e interage com outras partes do programa. O escopo não é uma mera questão técnica, ele influencia
+profundamente a maneira como se estruturar código, gerencia seus dados e evita conflitos entre
+variáveis.
 
- A falta de compreensão de escopo pode levar a bugs, comportamentos inesperados e maiores esforços de manutenção,
-tudo isso pode ser evitado com a compreensão e aplicação adequadas das regras de escopo.
+ A falta de compreensão de escopo pode levar a bugs, comportamentos inesperados e maiores esforços
+de manutenção, tudo isso pode ser evitado com a compreensão e aplicação adequadas das regras de escopo.
 
- Existem vários tipos de escopo, dependendo da linguagem de programação usada. Sendo os dois bases nas linguagens de programação: o "Escopo Global" e o "Escopo Global".
+ Existem vários tipos de escopo, dependendo da linguagem de programação usada. Sendo os dois bases nas 
+linguagens de programação: o "Escopo Global" e o "Escopo Global".
 
 
                                         Escopo Global
 
- O escopo global é o escopo mais amplo disponível. Variáveis declaradas no escopo global são acessíveis de  qualquer lugar no código, seja dentro de funções, estruturas condicionais, loops ou outros blocos de código.
+ O escopo global é o escopo mais amplo disponível. Variáveis declaradas no escopo global são acessíveis
+de  qualquer lugar no código, seja dentro de funções, estruturas condicionais, loops ou outros blocos 
+de código.
 
- Para ilustrar, pode se considerar uma analogia. O programa sendo uma cidade pequena, e o escopo global como a praça central da cidade onde todos podem ver e acessar o que o que está acontecendo. Tudo o que declarar no escopo global é como um outdoor na praça para todo mundo ver. Qualquer função ou bloco de código dentro do programa pode ler e modificar essas variáveis globais.
+ Para ilustrar, pode se considerar uma analogia. O programa sendo uma cidade pequena, e o escopo global 
+como a praça central da cidade onde todos podem ver e acessar o que o que está acontecendo. 
+Tudo o que declarar no escopo global é como um outdoor na praça para todo mundo ver.
+Qualquer função ou bloco de código dentro do programa pode ler e modificar essas variáveis globais.
 
 
 * Como acessar variáveis globais?
  
- Acessar variáveis globais é direto. Você pode usá-las dentro de funções ou qualquer parte do seu código sem nenhum esforço especial.
+ Acessar variáveis globais é direto. Você pode usá-las dentro de funções ou qualquer parte do seu 
+código sem nenhum esforço especial.
 
 
 * Quais as Vantagens do escopo global?
 
  O uso de variáveis globais podem trazer várias vantagens para o desenvolvimento de um programa.
 
- Uma das principais vantagens é a facilidade de compartilhamento de informações entre diferentes partes do código. Isso pode ser especialmente útil quando se deseja passar dados de uma função para outra ou quando se deseja armazenar informações que precisam ser acessadas por várias partes do código.
+ Uma das principais vantagens é a facilidade de compartilhamento de informações entre diferentes partes 
+do código. Isso pode ser especialmente útil quando se deseja passar dados de uma função para outra ou quando 
+se deseja armazenar informações que precisam ser acessadas por várias partes do código.
 
- Além disso, o uso de variáveis globais pode simplificar o código, evitando a necessidade de passar parâmetros entre funções ou criar estruturas de dados complexas para armazenar informações temporárias.
+ Além disso, o uso de variáveis globais pode simplificar o código, evitando a necessidade de passar parâmetros 
+entre funções ou criar estruturas de dados complexas para armazenar informações temporárias.
 
 
 * Possíveis desvantagens com escopo global?
 
  Embora o escopo global possa ser bastante conveniente, ela traz consigo potenciais desvantagens.
 
- Como as variáveis globais podem ser acessadas de qualquer lugar, elas são suscetíveis a alterações e conflitos não intencionais. Por exemplo, se várias partes do código modificarem a mesma variável global, isso pode levar a comportamentos inesperados e bugs difíceis de rastrear.
+ Como as variáveis globais podem ser acessadas de qualquer lugar, elas são suscetíveis a alterações e 
+conflitos não intencionais. Por exemplo, se várias partes do código modificarem a mesma variável global,
+isso pode levar a comportamentos inesperados e bugs difíceis de rastrear.
 
- Além que muitas variáveis declaradas como globais permanecendo na memória do computador até a execução na linha de código, pode ocupar muito espaço e isso pode causar problemas de falta de memória e pesar o programa na execução.
+ Além que muitas variáveis declaradas como globais permanecendo na memória do computador até a execução
+na linha de código, pode ocupar muito espaço e isso pode causar problemas de falta de memória e pesar o
+programa na execução.
  
 Variáveis globais podem tornar o código menos modular e organizado.
 
 
 * Para minimizar os possíveis problemas associados ao escopo global, considere as seguintes práticas:
 
-- Use o escopo global com moderação: declare variáveis no escopo global somente quando elas realmente precisarem ser acessadas globalmente.
-- Evite sobrescrever variáveis globais: tenha cuidado ao modificar variáveis globais pra evitar efeitos colaterais indesejados.
--Use nomes de variáveis descritivos: escolha nomes de variáveis que transmitam claramente seu finalidade, especialmente em escopo global, ode podem afetar muitas partes do código.
+- Use o escopo global com moderação: declare variáveis no escopo global somente quando elas realmente 
+precisarem ser acessadas globalmente.
+- Evite sobrescrever variáveis globais: tenha cuidado ao modificar variáveis globais pra evitar 
+efeitos colaterais indesejados.
+-Use nomes de variáveis descritivos: escolha nomes de variáveis que transmitam claramente seu finalidade,
+especialmente em escopo global, ode podem afetar muitas partes do código.
 
 
                                        Escopo local
 
- O escopo local é definido por as variável declarada dentro de bloco do código  ou sub-rotina. Só pode ser utilizado dentro da sub-rotina ou bloco de código em que é declarado. A variável de escopo local excite até que o bloco da função esteja e, execução. Depois disso, será excluída automaticamente.
+ O escopo local é definido por as variável declarada dentro de bloco do código  ou sub-rotina. 
+Só pode ser utilizado dentro da sub-rotina ou bloco de código em que é declarado. A variável de escopo
+local excite até que o bloco da função esteja e, execução. Depois disso, será excluída automaticamente.
 
- Considere a analogia, que o escopo local é como uma sala privada, uma variável declarada dentro desse escopo é semelhante a um objeto ou móvel colocado dentro dessa sala. Outros não podem interagir diretamente com ela de fora, eles precisam de permissão, como uma chave, pra entrar na sala e acessar a variável.
+ Considere a analogia, que o escopo local é como uma sala privada, uma variável declarada dentro desse escopo 
+é semelhante a um objeto ou móvel colocado dentro dessa sala. Outros não podem interagir diretamente com ela 
+de fora, eles precisam de permissão, como uma chave, pra entrar na sala e acessar a variável.
 
 
 * Como acessar variáveis locais?
 
-O acesso a variáveis locais e simplesmente acessadas dentro do escopo em que elas são declaradas. Mas são isoladas do escopo global, garantindo que não entrem em conflito acidentalmente com outras variáveis no código.
+O acesso a variáveis locais e simplesmente acessadas dentro do escopo em que elas são declaradas. Mas são isoladas
+do escopo global, garantindo que não entrem em conflito acidentalmente com outras variáveis no código.
 
 
 * Quais as Vantagens do escopo local?
 
- O uso de variáveis locais oferecem uma garantia de que os valores das variáveis permanecerão intactos enquanto a código estiver em execução.
+ O uso de variáveis locais oferecem uma garantia de que os valores das variáveis permanecerão intactos enquanto
+a código estiver em execução.
 
- Se várias tarefas alterarem um única variável que está sendo executada simultaneamente geralmente, o resultado pode ser imprevisível. Mas declará-la como variável local resolve esse problema, pois cada tarefa criará sua própria instância de variável local.
+ Se várias tarefas alterarem um única variável que está sendo executada simultaneamente geralmente, o resultado 
+pode ser imprevisível. Mas declará-la como variável local resolve esse problema, pois cada tarefa criará sua 
+própria instância de variável local.
 
  Em algumas linguagens pode se dar o mesmo nome as variáveis locais em funções diferentes porque elas só são
-reconhecidas pela função em são declaradas. E elas não excluídas assim que a função termina liberando o espaço de memoria que ocupa.
+reconhecidas pela função em são declaradas. E elas não excluídas assim que a função termina liberando o espaço 
+de memoria que ocupa.
 
 
 * Possíveis desvantagens com escopo local?
