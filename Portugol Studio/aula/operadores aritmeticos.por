@@ -15,7 +15,7 @@ programa
 		//limpar o console
 		limpa()
 
-		//retornando resultado
+		//resultado
 		escreva("A soma de ", n1, " com ", n2, " é igual a: ", res)
 		
 	}
