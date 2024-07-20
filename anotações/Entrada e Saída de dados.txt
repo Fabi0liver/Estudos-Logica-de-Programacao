@@ -1,0 +1,47 @@
+                                       ENTRADA E SAÍDA DE DADOS
+
+  Os comandos que possibilita que programa realizem a comunicação com o mundo externo, ou seja, possa receber dados de teclado, leitor de código de barras, de um controle de videogame entre outros, e exiba valores, dados, resultados de uma expressão em monitor, arquivo, jogo. Nas linguagens de programação são denominados de comandos ou funções de entrada e saída.
+
+  A  programação  é manipular dados que entram e saem de um programa. Ao usar comandos, os programas podem gerenciar
+perfeitamente os fluxos de entrada(dados que entram)e fluxos de saída(dados que saem do programa). Essa abstração simplifica o manuseio de operações e, um programa, garantindo flexibilidade e facilidade de uso para diferentes dispositivos e fontes de dados.
+
+* Entrada de dados:
+
+ Na estrutura básica de um programa, entrada se refere a fornecer dados ou informações a um programa de uma fonte externa. Semelhante a como um caixa eletrônico exige que um usuário insira seu PIN para executar transações, algoritmos em programação frequentemente exigem dados externos para operar efetivamente.
+
+ A entrada pode ser recebida de várias fontes e maneiras. Como:
+
+  - Escrita diretamente no programa.
+  - Por um usuário quando o programa está em execução, através de um comando "Input(escreva)".
+  - De um arquivo ou outra fonte quando o programa está em execução.
+
+ Quando dados são fornecidos a um programa de uma local externo, eles são armazenados na Random Access Memory(RAM)
+do computador, onde o programa pode acessá-los e processá-los.
+
+* Saída de dados:
+
+ Após o programa processar o dado, ele produz a saída que pode ser apresentada de várias maneiras, como exibir na tela do monitor, imprimir e, uma impressora, salvar o dado em um HD. O propósito da saída é enviar os dados da memória do programa para um local especificado.
+
+ É importante notar que, embora a entrada seja necessária pra muitas operação, há casos em que a saída pode ser gerada sem nenhuma entrada especifica. Por exemplo, um código  projetado para gerar números aleatórios produzirá números aleatórios como saída sem exigir valores de entrada específicos.
+
+
+Importância da entrada e saída:
+
+ Usa-se comandos de entrada e saída para habilitar a comunicação entre o programa e o usuário ou dispositivo. 
+
+ Aqui estão algumas razões pelas quais a entrada e saída são essenciais na programação:
+
+- Interagir com o usuário: Entrada permite que o programa receba dados ou informações do usuário. isso permite a interação do usuário e torna os programas mais dinâmicos e flexíveis.
+
+- Processamento de dados externos: Entrada permite que o programa leia dados de fontes externas, como arquivos ou banco de dados. Isso permite que os programas trabalhem com grandes conjuntos de dados, arquivos de configuração ou outros recursos externos.
+
+- Fornecer feedback e resultados: Saída permite que o programa exiba informações ou resultados para o usuário. Isso pode incluir imprimir mensagens, exibir valores calculados ou gerar relatórios. A saída ajuda a transmitir informações e comunicação do programa eficaz.
+
+- Depuração e solução de problemas: Entrada e saída são ferramentas valiosas para depuração e solução de problemas de programas. Elas permitem que os desenvolvedores inspecione, o comportamento do programa imprimindo valores intermediários, verificando estados de variáveis ou registando informações importantes durante a execução do programa. Isso ajuda a identificar problemas, entender o fluxo do programa e diagnosticar erros.
+
+- Integração com dispositivos externos: Entrada e saída facilitam a comunicação com dispositivos externos, como impressoras, monitores ou interfaces de rede. Elas fornece, uma maneira padronizada de enviar e receber dados, permitindo que programas interajam com vários componentes de hardware e periféricos.
+ 
+ 
+
+
+
