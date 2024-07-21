@@ -1,13 +1,18 @@
                                          OPERADORES LÓGICOS
 
- Um operador lógico é um símbolo ou palavra usado pra conectar duas ou mais expressões de modo que o valor de expressão composta produzida dependa apenas dos valores das expressões originais e do significado do operador.
+ Um operador lógico é um símbolo ou palavra usado pra conectar duas ou mais expressões de modo que o valor 
+de expressão composta produzida dependa apenas dos valores das expressões originais e do significado do operador.
 
- Na maioria das linguagens, expressões que produzem valores de tipo booleano são divididas em dois grupos. Um grupo
-usa os operadores relacionais dentro de suas expressões e o outro grupo usa operadores lógicos dentro de suas expressões.
+ Na maioria das linguagens, expressões que produzem valores de tipo booleano são divididas em dois grupos. 
+Um grupo usa os operadores relacionais dentro de suas expressões e o outro grupo usa operadores lógicos dentro de 
+suas expressões.
 
- Os operadores lógicos são frequentemente usados para ajudar a criar uma expressão de teste que controla o fluxo do programa. Esse tipo de expressão também é conhecida como expressão booleana porque eles criam uma resposta ou valor booleano quando avaliados.
+ Os operadores lógicos são frequentemente usados para ajudar a criar uma expressão de teste que controla o fluxo 
+do programa. Esse tipo de expressão também é conhecida como expressão booleana porque eles criam uma resposta ou valor
+booleano quando avaliados.
 
- Existem três operadores lógicos comuns que fornecem um valor booleano ao manipular outros operadores booleanos. Esses operadores lógicos comuns são: "E"(AND), "OU"(OR), "NÃO"(NOT).
+ Existem três operadores lógicos comuns que fornecem um valor booleano ao manipular outros operadores booleanos. 
+Esses operadores lógicos comuns são: "E"(AND), "OU"(OR), "NÃO"(NOT).
 
  Esses Símbolos e/ou nome de operadores variam com diferentes linguagens de programação.
 
@@ -23,7 +28,8 @@ JavaScript    &&     ||    !
 
 * Operador lógico E (&& ou and):
 
- O operador lógico "e" verifica se todos os operandos são verdadeiros. Se todos os resultados dos operandos forem verdadeiros, retornará verdadeiro. Caso contrario retornará falso.
+ O operador lógico "e" verifica se todos os operandos são verdadeiros. Se todos os resultados dos operandos forem 
+verdadeiros, retornará verdadeiro. Caso contrario retornará falso.
 
  Aqui está a tabela verdade para o "e", quando se está trabalhando com dois operandos:
 
@@ -48,7 +54,8 @@ O resultado é "verdadeiro", porque ambos os operando são "verdadeiro".
               (10 == 20) e (20 == 20)
      
      (10 == 20) é falso é (20 == 20) é verdadeiro
-O resultado é "falso", porque um dos operados é "falso", neste caso que o primeiro operando e "falso", então o segundo operando não é validado.
+O resultado é "falso", porque um dos operados é "falso", neste caso que o primeiro operando e "falso", então o 
+segundo operando não é validado.
 
 
 * Operador lógico OU (|| ou or):
@@ -85,7 +92,8 @@ O  resultado é "falso", porque ambos os operando são "falso".
               (20 == 20) e (10 == 20)
      
      (20 == 20) é verdadeiro é (10 == 20) é falso
- O resultado é "verdadeiro", porque um dos operados é "verdadeiro", neste caso que o primeiro operando e "verdadeiro", então o segundo operando não é validado.
+ O resultado é "verdadeiro", porque um dos operados é "verdadeiro", neste caso que o primeiro operando e 
+"verdadeiro", então o segundo operando não é validado.
 
 
 * Operador lógico NÃO (! ou not):
