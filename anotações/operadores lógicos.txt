@@ -1,0 +1,119 @@
+                                         OPERADORES LÓGICOS
+
+ Um operador lógico é um símbolo ou palavra usado pra conectar duas ou mais expressões de modo que o valor de expressão composta produzida dependa apenas dos valores das expressões originais e do significado do operador.
+
+ Na maioria das linguagens, expressões que produzem valores de tipo booleano são divididas em dois grupos. Um grupo
+usa os operadores relacionais dentro de suas expressões e o outro grupo usa operadores lógicos dentro de suas expressões.
+
+ Os operadores lógicos são frequentemente usados para ajudar a criar uma expressão de teste que controla o fluxo do programa. Esse tipo de expressão também é conhecida como expressão booleana porque eles criam uma resposta ou valor booleano quando avaliados.
+
+ Existem três operadores lógicos comuns que fornecem um valor booleano ao manipular outros operadores booleanos. Esses operadores lógicos comuns são: "E"(AND), "OU"(OR), "NÃO"(NOT).
+
+ Esses Símbolos e/ou nome de operadores variam com diferentes linguagens de programação.
+
+--------------------------------
+  linguagem    E     OU    NÃO
+--------------------------------
+    C++       &&     ||    !
+    C#        &&     ||    !
+   Java       &&     ||    !
+JavaScript    &&     ||    !
+ Python       and    or   not
+-------------------------------
+
+* Operador lógico E (&& ou and):
+
+ O operador lógico "e" verifica se todos os operandos são verdadeiros. Se todos os resultados dos operandos forem verdadeiros, retornará verdadeiro. Caso contrario retornará falso.
+
+ Aqui está a tabela verdade para o "e", quando se está trabalhando com dois operandos:
+
+---------------------------------------------------------  
+  Primeiro Operando     Segundo Operando     Resultado
+---------------------------------------------------------
+     verdadeiro           verdadeiro        verdadeiro    
+     Verdadeiro             falso             falso
+       falso              verdadeiro          falso
+       falso                falso             falso
+---------------------------------------------------------
+ Algo a ser observado aqui é que, quando o primeiro operando e "falso", o segundo operando não é avaliado.
+
+ Vejamos exemplos: 
+       
+               (10 == 10) e (20 == 20)
+     
+     (10 == 10) é verdadeiro é (20 == 20) é verdadeiro
+O resultado é "verdadeiro", porque ambos os operando são "verdadeiro". 
+
+
+              (10 == 20) e (20 == 20)
+     
+     (10 == 20) é falso é (20 == 20) é verdadeiro
+O resultado é "falso", porque um dos operados é "falso", neste caso que o primeiro operando e "falso", então o segundo operando não é validado.
+
+
+* Operador lógico OU (|| ou or):
+
+ O operador lógico "ou", verifica se um dos operandos é verdadeiro. O resultado será verdadeiro se pelo menos um
+dos operandos seja verdadeiro.
+
+ Aqui está a tabela verdade para o "ou", quando se está trabalhando com dois operandos:
+
+---------------------------------------------------------  
+  Primeiro Operando     Segundo Operando     Resultado
+---------------------------------------------------------
+     verdadeiro           verdadeiro        verdadeiro    
+     Verdadeiro             falso           verdadeiro
+       falso              verdadeiro        verdadeiro
+       falso                falso             falso
+---------------------------------------------------------
+ Observe que com o operador "ou", se o primeiro operando for verdadeiro, o segundo operando não será avaliado.
+
+ Exemplos: 
+      
+              (10 == 10) ou (20 == 20)
+     
+     (10 == 10) é verdadeiro é (20 == 20) é verdadeiro
+O  resultado é "verdadeiro", porque ambos os operando são "verdadeiro". 
+
+              
+              (10 == 20) ou (20 == 10)
+     
+     (10 == 20) é falso é (20 == 10) é falso
+O  resultado é "falso", porque ambos os operando são "falso". 
+
+              
+              (20 == 20) e (10 == 20)
+     
+     (20 == 20) é verdadeiro é (10 == 20) é falso
+ O resultado é "verdadeiro", porque um dos operados é "verdadeiro", neste caso que o primeiro operando e "verdadeiro", então o segundo operando não é validado.
+
+
+* Operador lógico NÃO (! ou not):
+
+ O operador lógico "não", nega o operando. Ou seja, ele retorna o oposto do operando.
+ Se o Operando for verdadeiro, ele retorna falso. E se o operando for falso ele retorna verdadeiro.
+
+ Aqui está a tabela verdade para o "não", quando se está trabalhando com dois operandos:
+
+-----------------------------
+   Operando     Resultado
+-----------------------------
+  verdadeiro      falso
+     falso      verdadeiro
+-----------------------------
+
+Exemplos:
+
+          nao(10 == 10) é falso
+
+A condição (10 == 10) é verdadeira, mas o operador "nao" a nega retornando "falso".
+
+  
+         nao(10 == 20) é verdadeiro
+
+A condição (10 == 20) é falsa, mas o operador "nao" a nega retornando "verdadeiro"
+
+  
+
+
+
