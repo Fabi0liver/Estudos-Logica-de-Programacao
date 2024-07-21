@@ -11,7 +11,7 @@ programa
 		// dados/estados das janelas
 		janela_quarto = 'a'
 		janela_sala = 'a'       // 'a': aberta
-	     janela_quarto2 = 'f'   // 'f': fechada
+	        janela_quarto2 = 'f'   // 'f': fechada
 
 		//operadores lógicos
 		estado1 = janela_quarto == 'a' ou janela_sala == 'a' ou janela_quarto2 == 'a'
