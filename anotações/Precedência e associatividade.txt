@@ -1,36 +1,46 @@
                                PRECEDÊNCIA DE OPERADORES E ASSOCIATIVIDADE
 
- A precedência de operadores dita a ordem na qual os operadores serão evoluídos em uma expressão. A associatividade, por outro lado, define a ordem na qual os operadores da mesma precedência serão avaliados em uma expressão. Além disso, a associatividade pode ocorrer da direita para a esquerda ou da esquerda pra direita.
+ A precedência de operadores dita a ordem na qual os operadores serão evoluídos em uma expressão. 
+A associatividade, por outro lado, define a ordem na qual os operadores da mesma precedência serão 
+avaliados em uma expressão. Além disso, a associatividade pode ocorrer da direita para a esquerda 
+ou da esquerda pra direita.
 
 * Uso da precedência de operadores e associatividade:
 
- Precedência e associatividade são dois dos caracteres usados para operadores em uma expressão para determinar a ordem de subexpressão quando elas não têm colchetes.
+ Precedência e associatividade são dois dos caracteres usados para operadores em uma expressão para 
+determinar a ordem de subexpressão quando elas não têm colchetes.
 
 
 - Operador precedente:
 
- A precedência do operador nos ajuda a determinar qual dos operadores em uma expressão deve ser avaliado primeiro caso a expressão consista em mais de um operador.
+ A precedência do operador nos ajuda a determinar qual dos operadores em uma expressão deve ser 
+avaliado primeiro caso a expressão consista em mais de um operador.
 
  Exemplo: 
 
  50 - 2 * 15 resulta em  20
 
- Isso porque ele é avaliado como 50 - (2 * 15), e não como (50 - 2) * 15. O motivo aqui é que a subtração (-) tem precedência menor em comparação a multiplicação (*).
+ Isso porque ele é avaliado como 50 - (2 * 15), e não como (50 - 2) * 15. O motivo aqui é que a 
+subtração (-) tem precedência menor em comparação a multiplicação (*).
 
 
 - Associatividade do Operador:
 
- Usamos associatividade quando dois ou mais operadores com a mesma precedência estão presentes na mesma expressão.
+ Usamos associatividade quando dois ou mais operadores com a mesma precedência estão presentes 
+na mesma expressão.
 
  Exemplo:
 
  6 * 3 / 2 resulta em 9
 
-  A avaliação dessa expressão seria (6 * 3) / 2 .Isso porque a precedência dos operadores aritméticos de multiplicação (*) e divisão (/) é a mesma, então a associatividade será da esquerda pra a direita para ambos os operadores. 
+  A avaliação dessa expressão seria (6 * 3) / 2 .Isso porque a precedência dos operadores aritméticos 
+de multiplicação (*) e divisão (/) é a mesma, então a associatividade será da esquerda pra a direita 
+para ambos os operadores. 
 
  40 / 4 * 5 resulta em 50
 
- Em caso semelhante, o cálculo  seria (40 / 4) * 5 porque a associatividade seria da esquerda para a direita nesta também.
+ Em caso semelhante, o cálculo  seria (40 / 4) * 5 porque a associatividade seria da esquerda para
+a direita nesta também.
 
 
 * Resumo de Precedência de operadores e Associatividade:
@@ -40,20 +50,26 @@
 
   Nome	        Operador(es)	       Associatividade
 -------------------------------------------------------
-Agrupamento        ( )                       n/a
+Agrupamento         ( )                    n/a
 Unário	            !	                   direita
-Aritmética	  * / %	                  esquerda
-Aritmética	   - +	                  esquerda
-Comparação	 < > <= >=	          esquerda
-Comparação	   == !=                  esquerda
-Atribuição	= += -= *=	           direita
+Aritmética	       * / %	              esquerda
+Aritmética	       - +	                esquerda
+Comparação	   < > <= >=	              esquerda
+Comparação	     == !=                  esquerda
+Atribuição	    = += -= *=	             direita
 
 
 * Alguns pontos importantes para lembrar:
 
-- Só usamos associatividade quando temos dois ou mais operadores que tem, a mesma precedência em uma expressão.
-O ponto a ser observado aqui é que a associabilidade não é aplicável quando definindo a ordem de avaliação de operandos com diferentes níveis de precedência.
+- Só usamos associatividade quando temos dois ou mais operadores que tem, a mesma precedência em uma
+expressão.
+O ponto a ser observado aqui é que a associabilidade não é aplicável quando definindo a ordem de 
+avaliação de operandos com diferentes níveis de precedência.
 
-- Todos os operadores que têm um nível similar de precedência têm a mesma associatividade. É muito importante, ou então programa não será capaz de decidir qual ordem de avaliação um expressão deve seguir quando ela tem dois operadores com a mesma precedência, mas associatividade diferente. Por exemplo, - e + têm a mesma associatividade.
+- Todos os operadores que têm um nível similar de precedência têm a mesma associatividade. É muito
+importante, ou então programa não será capaz de decidir qual ordem de avaliação um expressão deve
+seguir quando ela tem dois operadores com a mesma precedência, mas associatividade diferente. 
+Por exemplo, - e + têm a mesma associatividade.
 
-- Devemos usar a vírgula(,) com muito cuidado, pois ela tem o menor nível de precedência entre todos os outros operadores presentes em uma expressão.
+- Devemos usar a vírgula(,) com muito cuidado, pois ela tem o menor nível de precedência entre 
+todos os outros operadores presentes em uma expressão.
