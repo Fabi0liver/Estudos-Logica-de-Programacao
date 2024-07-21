@@ -3,8 +3,9 @@
  Um Operador Relacional é uma construção ou operador de linguagem de programação que testa ou define algum tipo de
 relação entre duas entidade. Isso inclui igualdade numérica(Por exemplo, 5==5) e desigualdade(por exemplo, 4 != 3).
 
- Os operadores relacionais são frequentemente usados para criar uma expressão de teste que controla o fluxo do programa. Esse tipo de expressão também é conhecido como expressão booleana porque eles criam uma resposta ou valor
-booleano quando avaliado.
+ Os operadores relacionais são frequentemente usados para criar uma expressão de teste que controla o fluxo do programa. 
+Esse tipo de expressão também é conhecido como expressão booleana porque eles criam uma resposta ou valor booleano 
+quando avaliado.
 
  Existem seis operadores relacionais comuns que fornecem um valor booleano comparando(Mostrando o relacionamento)
 entre dois operandos. Se os operandos forem de tipos de dados diferentes, ocorre promoção implícita para converter
@@ -39,7 +40,8 @@ Exemplo: 7 == 7  # Verdadeiro
 É Outro Operador relacional usado pra verificar se os dois operandos fornecidos são iguais ou não.
 
 - É também um operador binário, exigindo dois operandos para realizar a comparação.
-- É o complemento booleano exato do operador '==' que retorna Verdadeiro se os dois valores não forem iguais, Falso caso contrario.
+- É o complemento booleano exato do operador '==' que retorna Verdadeiro se os dois valores não forem iguais, 
+Falso caso contrario.
 
 Exemplo: 7 != 7  # Falso
          7 != 4  # Verdadeiro
