@@ -1,5 +1,7 @@
 programa
-{
+{	
+	inclua biblioteca Matematica --> m
+	
 	//Crie um algoritmo que leia um número real e mostre na tela o seu dobro e a sua terça parte.
 
 	funcao inicio()
@@ -9,7 +11,7 @@ programa
 		escreva("Digite um número: ")
 		leia(numero)
 		dobro =  numero * 2
-		terca_parte = numero / 3
+		terca_parte = m.arredondar(numero / 3, 3)
 		limpa()
 
 		escreva("-----------------------------\n")
@@ -28,7 +30,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 544; 
+ * @POSICAO-CURSOR = 596; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
