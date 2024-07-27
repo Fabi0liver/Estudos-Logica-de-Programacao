@@ -1,7 +1,8 @@
                                       ESTRUTURAS CONDICIONAIS
 
- As estruturas condicionais são construções de controle de fluxo que permitem a execução de diferentes blocos de código com base em certa condições. Essas condições são expressões que, ao serem avaliadas, retornam valores 
-booleanos('Verdadeiro ou Falso', 'True ou False'). 
+ As estruturas condicionais são construções de controle de fluxo que permitem a execução de diferentes
+blocos de código com base em certa condições. Essas condições são expressões que, ao serem avaliadas,
+retornam valores booleanos('Verdadeiro ou Falso', 'True ou False'). 
 
  Elas são fundamentais para que o programa possa tomar decisões e executar ações conforme necessário.
 
@@ -23,52 +24,72 @@ lógicos (como "e", "ou", "não") pra formular a condição.
 
        Propósito
 
- O propósito das estruturas condicionais vai muito além de simplesmente dividir o fluxo de execução do programa. Elas são fundamentais para a construção de software inteligente, eficiente e fácil de manter.
+ O propósito das estruturas condicionais vai muito além de simplesmente dividir o fluxo de execução do programa.
+Elas são fundamentais para a construção de software inteligente, eficiente e fácil de manter.
 
  Vamos explorar em profundidade cada faceta do seu propósito:
 
 * Tomada de decisão
 
- As estruturas condicionais são como o cérebro do programa, permitindo que ele tome decisões com base em diferentes cenário e dados.
+ As estruturas condicionais são como o cérebro do programa, permitindo que ele tome decisões com base em 
+diferentes cenário e dados.
 
- - Adaptação a Diferentes Situações: Permitem que o programa reaja dinamicamente ás variadas entradas e estados que encontra. pense em aplicativo de previsão do tempo que oferece diferentes recomendações dependendo das condições climáticas atuais.
+ - Adaptação a Diferentes Situações: Permitem que o programa reaja dinamicamente ás variadas entradas e estados 
+que encontra. Pense em aplicativo de previsão do tempo que oferece diferentes recomendações dependendo das 
+condições climáticas atuais.
  
-- Implementação de Regras de Negócio: Facilitam a execução de lógica complexa e específica de  negócio. Por exemplo, um sistema de e_commerce pode aplicar descontos variados dependendo da categoria do cliente ou valor da compra.
+- Implementação de Regras de Negócio: Facilitam a execução de lógica complexa e específica de  negócio. 
+Por exemplo, um sistema de e_commerce pode aplicar descontos variados dependendo da categoria do cliente ou 
+valor da compra.
 
 
 * Controle de Fluxo do Programa
 
  Controlar o fluxo de execução é crucial para garantir que o programa execute as ações corretas no momento certo.
 
-  - Desvio Condicional: As estruturas condicionais permitem que o programa siga diferentes caminhos de execução, desviando do fluxo linear tradicional. isso é vital para responder adequadamente a diferentes situações.
+  - Desvio Condicional: As estruturas condicionais permitem que o programa siga diferentes caminhos de execução,
+desviando do fluxo linear tradicional. isso é vital para responder adequadamente a diferentes situações.
 
-  -Organização do Código: Elas ajudam a organizar o código em blocos lógicos, tornando-o mais legível e facilitando a manutenção. Um código bem estruturado é mais fácil de entender e depurar, o que é fundamental para a produtividade e a qualidade do software.
+  -Organização do Código: Elas ajudam a organizar o código em blocos lógicos, tornando-o mais legível e facilitando 
+a manutenção. Um código bem estruturado é mais fácil de entender e depurar, o que é fundamental para a produtividade
+e a qualidade do software.
 
 
 * Melhorar a performance
 
  Estruturas condicionais desempenham um papel importante na otimização do desempenho de uma programa.
 
-  - Execução Eficiente: Elas permitem que o programa verifique condições antes de executar operações custosas, economizando recursos computacionais. Por exemplo, um programa pode checar se há dados suficientes antes de iniciar uma análise intensiva.
+  - Execução Eficiente: Elas permitem que o programa verifique condições antes de executar operações custosas, 
+economizando recursos computacionais. Por exemplo, um programa pode checar se há dados suficientes antes de iniciar 
+uma análise intensiva.
 
-  - Prevenção de Erros: Verificam se certas pré-condições são atendidas antes de realizar operações que podem falhar, aumentando a robustez e a confiabilidade do software. isso previne falhas e garante que o programa funcione de maneira suave e previsível.
+  - Prevenção de Erros: Verificam se certas pré-condições são atendidas antes de realizar operações que podem falhar, 
+aumentando a robustez e a confiabilidade do software. isso previne falhas e garante que o programa funcione de maneira 
+suave e previsível.
 
 
 * Flexibilidade e Manutenção
 
  Estruturas condicionais aumentam a modularidade do código, tornando-o mais flexível e fácil de manter.
 
-  - Código Modular e Adaptável: Dividem o código em partes independentes que podem ser ajustadas sem afetar o restante do programa. Isso facilita a atualização e a manutenção, permitindo que desenvolvedores façam mudanças incrementais sem risco de quebrar o código existente.
+  - Código Modular e Adaptável: Dividem o código em partes independentes que podem ser ajustadas sem afetar o restante 
+do programa. Isso facilita a atualização e a manutenção, permitindo que desenvolvedores façam mudanças incrementais sem 
+risco de quebrar o código existente.
 
   - Implementação de Funcionalidades Complexas: Facilitam a construção de funcionalidades avançadas e específicas,
-como algoritmos de decisões complexos e validações de entrada. Isso torna o programa mais poderoso e adaptável a diversas situações e requisitos.
+como algoritmos de decisões complexos e validações de entrada. Isso torna o programa mais poderoso e adaptável a diversas 
+situações e requisitos.
 
 
- Enfim, estruturas condicionais são fundamentais para qualquer programa de computador, fornecendo a base para a tomada de decisão, controle de fluxo, otimização de desempenho e manutenção de códigos. Elas permitem que os programas sejam dinâmicos, adaptáveis e eficientes, atendendo a uma vasta gama de condições e necessidades.
+ Enfim, estruturas condicionais são fundamentais para qualquer programa de computador, fornecendo a base para a tomada de 
+decisão, controle de fluxo, otimização de desempenho e manutenção de códigos. Elas permitem que os programas sejam dinâmicos,
+adaptáveis e eficientes, atendendo a uma vasta gama de condições e necessidades.
 
- Ao organizar o código de maneira lógica e eficiente, as estruturas condicionais garantem que os programas sejam não apenas funcionais, mas também robustos e fáceis de manter.
+ Ao organizar o código de maneira lógica e eficiente, as estruturas condicionais garantem que os programas sejam não apenas 
+funcionais, mas também robustos e fáceis de manter.
 
- Em resumo, são essas estruturas que transformam um conjunto de instruções e, um software inteligente e responsivo, capa de lidar com a complexidade do mundo real.
+ Em resumo, são essas estruturas que transformam um conjunto de instruções e, um software inteligente e responsivo, capa de 
+lidar com a complexidade do mundo real.
 
 
 
