@@ -1,25 +1,31 @@
                                   ESTRUTURAS CONDICIONAIS COMPOSTAS
 
- A Estrutura Condicional Composta é uma construção lógica usada em algoritmos e programação para direcionar o fluxo
-de execução baseando em uma ou mais condições.
+ A Estrutura Condicional Composta é uma construção lógica usada em algoritmos e programação para 
+direcionar o fluxode execução baseando em uma ou mais condições.
 
- Ela envolve a avaliação de uma condição que pode resultar em Verdadeiro (True) ou Falso (False). Dependendo do resultado dessa avaliação, diferentes blocos de instruções são
-executados. 
+ Ela envolve a avaliação de uma condição que pode resultar em Verdadeiro (True) ou Falso (False). 
+Dependendo do resultado dessa avaliação, diferentes blocos de instruções são executados. 
  
- Especificamente, ela permite que uma sequência de comandos  seja executada quando a condição é verdadeira e uma
-sequência alternativa seja executada quando a condição é falsa.
+ Especificamente, ela permite que uma sequência de comandos  seja executada quando a condição é 
+verdadeira e uma sequência alternativa seja executada quando a condição é falsa.
 
- O propósito da Estrutura Condicional Composta é proporcionar flexibilidade e controle no fluxo de execução de um programa. Isso é crucial para:
+ O propósito da Estrutura Condicional Composta é proporcionar flexibilidade e controle no fluxo 
+de execução de um programa. Isso é crucial para:
 
-  - Tomar Decisões Baseadas em Condições: Permitir que o programa escolha entre diferentes ações com base em dados ou estados variáveis.
+  - Tomar Decisões Baseadas em Condições: Permitir que o programa escolha entre diferentes ações 
+  com base em dados ou estados variáveis.
 
-  - Responder as Entradas do Usuário: Ajustar o comportamento do programa conforme as informações fornecidas pelo usuário.
+  - Responder as Entradas do Usuário: Ajustar o comportamento do programa conforme as informações  
+  fornecidas pelo usuário.
 
-  - Garantir Validade de Dados: Verificar se certas condições são atendidas antes de prosseguir com operações críticas.
+  - Garantir Validade de Dados: Verificar se certas condições são atendidas antes de prosseguir 
+  com operações críticas.
 
-  - Automatizar Processos de Negócios: Implementar lógica de decisão automatizada com base em regras de negócios ou critérios pré-definidos.
+  - Automatizar Processos de Negócios: Implementar lógica de decisão automatizada com base em 
+  regras de negócios ou critérios pré-definidos.
 
-  - Otimizar o Fluxo de Execução: Melhorar a eficiência ao evitar a execução de códigos desnecessários quando certas condições não são atendidas.
+  - Otimizar o Fluxo de Execução: Melhorar a eficiência ao evitar a execução de códigos 
+  desnecessários quando certas condições não são atendidas.
 
 
 
@@ -28,25 +34,32 @@ sequência alternativa seja executada quando a condição é falsa.
 
  * Condição:
 
- A condição é uma expressão lógica que pode ser avaliada como verdadeira (True) ou falsa (False). Esta expressão
-pode envolver comparações entre valores, verificações de igualdade ou desigualdade, ou qualquer outro tipo de teste lógico. A condição é a base para a tomada de decisão dentro da estrutura condicional composta.
+ A condição é uma expressão lógica que pode ser avaliada como verdadeira (True) ou falsa (False). 
+Esta expressão pode envolver comparações entre valores, verificações de igualdade ou desigualdade, 
+ou qualquer outro tipo de teste lógico. A condição é a base para a tomada de decisão dentro da 
+estrutura condicional composta.
 
  
 * Bloco de Comando Verdadeiro:
 
- Este é o conjunto de instruções que será executados se a condição for avaliada como verdadeira. Este bloco de comandos é definido logo após a condição e geralmente é precedido por uma palavra-chave que indica a sua execução
-condicional, como "SE"(if) em português estruturado.
+ Este é o conjunto de instruções que será executados se a condição for avaliada como verdadeira. 
+Este bloco de comandos é definido logo após a condição e geralmente é precedido por uma palavra-chave 
+que indica a sua execução condicional, como "SE"(if) em português estruturado.
 
 
  * Bloco de Comandos Falso:
 
- Este é o conjunto de instruções que será executado se a condição for avaliada como falsa. Este bloco de comandos é opcional, mas comumente presente, e é definido após o bloco de comandos verdadeiro, sendo precedido por uma palavra-chave que indica a execução alternativa, como "SENÃO"(else) em português estruturado.
+ Este é o conjunto de instruções que será executado se a condição for avaliada como falsa. Este bloco de 
+comandos é opcional, mas comumente presente, e é definido após o bloco de comandos verdadeiro, sendo 
+precedido por uma palavra-chave que indica a execução alternativa, como "SENÃO"(else) em português 
+estruturado.
 
 
 
   "Funcionamento da Estrutura Condicional Composta"
 
- A estrutura Condicional Composta é composta de uma série de etapas que envolvem a avaliação de um condição e a execução de diferentes blocos de comandos com base na resultado dessa avaliação. 
+ A estrutura Condicional Composta é composta de uma série de etapas que envolvem a avaliação de um condição
+e a execução de diferentes blocos de comandos com base na resultado dessa avaliação. 
 
 Abaixo, estão os detalhes das etapas envolvidas no funcionamento desta estrutura:
 
@@ -58,28 +71,39 @@ e definidas. Estas variáveis podem conter dados que influenciam a condição a 
  
  2. Avaliação de Condição
 
-  - Construção da condição: A condição é uma expressão lógica que deve ser avaliada pelo algoritmo. Pode incluir operadores de comparação (Como: ">", "<", ">=", "<=", "==", "!=") e operadores lógicos (como: "E", "OU", "NÃO").
+  - Construção da condição: A condição é uma expressão lógica que deve ser avaliada pelo algoritmo. Pode incluir
+operadores de comparação (Como: ">", "<", ">=", "<=", "==", "!=") e operadores lógicos (como: "E", "OU", "NÃO").
 
-  - Processo de avaliação: A condição é avaliada pelo algoritmo. Isso envolve calcular o valor de expressão lógica para determinar se é verdadeira ou falsa. O resultado da avaliação da condição determina o caminho que o algoritmo seguirá.
+  - Processo de avaliação: A condição é avaliada pelo algoritmo. Isso envolve calcular o valor de expressão lógica
+para determinar se é verdadeira ou falsa. O resultado da avaliação da condição determina o caminho que o algoritmo
+seguirá.
 
 
  3. Decisão Baseada na Avaliação
 
-  - Se a condição for verdadeira: O algoritmo segue para o bloco de comandos associado ao resultado verdadeira.  Este bloco de comandos contém todas as instruções que devem ser executadas quando é satisfeita.
+  - Se a condição for verdadeira: O algoritmo segue para o bloco de comandos associado ao resultado verdadeira. 
+Este bloco de comandos contém todas as instruções que devem ser executadas quando é satisfeita.
 
-  - Se a condição for falsa: O algoritmo segue para o bloco de comandos associado ao resultado falso. Este bloco de comandos contém todas as instruções que devem ser executadas quando a condição não é satisfeita.
+  - Se a condição for falsa: O algoritmo segue para o bloco de comandos associado ao resultado falso. Este bloco de
+comandos contém todas as instruções que devem ser executadas quando a condição não é satisfeita.
 
 
  4. Execução dos Blocos de Comandos
 
- - Bloco de comandos verdadeiro: Quando a condição é verdadeira, o algoritmo entra neste bloco e execute todas as instruções contidas nele. Exemplos de instruções podem incluir operações matemáticas, chamadas de funções, alteração em variáveis, etc.
+ - Bloco de comandos verdadeiro: Quando a condição é verdadeira, o algoritmo entra neste bloco e execute todas as 
+instruções contidas nele. Exemplos de instruções podem incluir operações matemáticas, chamadas de funções, alteração
+em variáveis, etc.
 
- - Bloco de comandos falso: Quando a condição é falsa, o algoritmo ignora o bloco verdadeiro e entra neste bloco, executando todas as instruções contidas nele. Este bloco também pode incluir diversas operações, conforme necessário para o fluxo alternativo do algoritmo.
+ - Bloco de comandos falso: Quando a condição é falsa, o algoritmo ignora o bloco verdadeiro e entra neste bloco, 
+executando todas as instruções contidas nele. Este bloco também pode incluir diversas operações, conforme necessário 
+para o fluxo alternativo do algoritmo.
 
 
  5. Continuação do Fluxo de Execução
 
- - Após a execução dos blocos:  Após a execução verdadeiro ou falso, o algoritmo continua com a execução das próximas instruções fora da estrutura condicional. Isso permite que o fluxo do algoritmo prossiga normalmente após a tomada de decisão e a execução dos comandos apropriados.
+ - Após a execução dos blocos:  Após a execução verdadeiro ou falso, o algoritmo continua com a execução das próximas 
+instruções fora da estrutura condicional. Isso permite que o fluxo do algoritmo prossiga normalmente após a tomada de
+decisão e a execução dos comandos apropriados.
  
 
 
@@ -109,19 +133,23 @@ e definidas. Estas variáveis podem conter dados que influenciam a condição a 
 
    " Condições Adicionais"
 
-- Eficiência: A estrutura condiciona composta deve ser utilizada de maneira eficiente, evitando condições redundantes ou desnecessárias que possam complicar o algoritmo.
+- Eficiência: A estrutura condiciona composta deve ser utilizada de maneira eficiente, evitando condições redundantes
+ou desnecessárias que possam complicar o algoritmo.
 
 - Legibilidade: É importante escrever condições clara e bem definidas, facilitando a leitura e manutençõa do código.
 
-- Extensibilidade: A estrutura condicional composta pode ser aninhada ou combinada com outras estruturas de controle para lógica mais complexa, conforme necessário.
+- Extensibilidade: A estrutura condicional composta pode ser aninhada ou combinada com outras estruturas de controle 
+para lógica mais complexa, conforme necessário.
 
 
 
   "Conclusão"
 
- A Estrutura Condicional Composta é fundamental para o controle de fluxo em algoritmos. Sua função é avaliar uma condição e decidir qual bloco de comandos executar com base no resultado dessa avaliação. 
+ A Estrutura Condicional Composta é fundamental para o controle de fluxo em algoritmos. Sua função é avaliar uma condição
+e decidir qual bloco de comandos executar com base no resultado dessa avaliação. 
  
-Esse processo permite que o algoritmo se adapte a diferentes situações, tornando-o mais flexível e capaz de lidar com uma variedade de cenários e entradas. 
+Esse processo permite que o algoritmo se adapte a diferentes situações, tornando-o mais flexível e capaz de lidar com uma
+variedade de cenários e entradas. 
  
 Compreender e utilizar essa estrutura é essencial para o desenvolvimento de algoritmos robustos e eficientes.
 
