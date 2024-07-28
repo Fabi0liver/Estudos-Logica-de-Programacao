@@ -32,13 +32,13 @@ programa
 		escreva("---------------------------\n")
 
 		// desvio condicional simples
-		se (( media >= 7.0 ) e (media < 9.0))
+		se ( media >= 7.0 ) 
 		{
 			escreva("O aluno ", nome, " está:'APROVADO'\n")
 		}
 
 		
-		
+	
 	}
 }
 
@@ -47,7 +47,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 985; 
+ * @POSICAO-CURSOR = 967; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
