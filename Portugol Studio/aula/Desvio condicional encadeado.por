@@ -1,7 +1,7 @@
 programa
 {
      inclua biblioteca Matematica --> m
-     //Usando devio de codição composta, pra saber se o aluno está aprovado, apartir de sua média
+     //Usando devio de codição encadeado, pra saber se o aluno está aprovado, apartir de sua média
 	
 	funcao inicio()
 	{
@@ -32,10 +32,19 @@ programa
 		escreva("---------------------------\n")
 
 		// desvio condicional simples
-		se ( media >= 7.0 ) 
+		se ( media >= 7.0  e media <= 9) 
 		{
 			escreva("O aluno ", nome, " está:'APROVADO'\n")
 		}
+		senao se (media > 9 )
+		{
+			escreva("O aluno ", nome, " está:'LÁUREADO'\n")
+		}
+		senao se (media < 7 e media >= 5)
+		{
+			escreva("O aluno ", nome, " está:'RECUPERAÇÂO' \n")
+		}
+		
 		senao
 		{
 			escreva("O aluno ", nome, " está:'REPROVADO'\n")
@@ -51,7 +60,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 565; 
+ * @POSICAO-CURSOR = 91; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
