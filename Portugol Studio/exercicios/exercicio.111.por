@@ -1,0 +1,124 @@
+programa
+{
+	/*Faça um programa que receba o valor da venda, escolha a condição de 
+
+      pagamento no menu e mostre o total da venda final conforme condições a seguir: 
+
+      Venda a Vista - desconto de 10% 
+
+      Venda a Prazo 30 dias - acréscimo de 5% 
+
+      Venda a Prazo 60 dias - acréscimo de 7% 
+
+      Venda a Prazo 90 dias - acréscimo de 10%
+
+      Venda com cartão de débito - preço normal 
+
+      Venda com cartão de crédito em 2 vezes - preço normal
+
+      venda com cartão de crédito em mais de 2 vezes 
+             acréscimo de 2% por parcela*/
+
+
+	inclua biblioteca Util --> u
+
+	funcao inicio()
+	{
+		
+		real preco, preco_pagar = 0.0
+		inteiro opcao, parcelas = 0
+		
+		escreva("===============================\n")
+		escreva("           VENDAS \n")
+		escreva("===============================\n")
+		escreva("  Preço do Produto: R$ ")
+		leia(preco)
+		escreva("-------------------------------\n")
+		escreva("      OPÇÕES DE PAGAMENTO \n")
+		escreva("...............................\n")
+		escreva("    [1] Pagamento a vista \n")
+		escreva("    [2] À prazo de 30 dias \n")
+		escreva("    [3] À prazo de 60 dias \n")
+		escreva("    [4] À prazo de 90 dias \n")
+		escreva("    [5] Cartão de débito \n")
+		escreva("    [6] Cartão de crédito \n")
+		escreva("       (em até 2 vezes) \n")
+		escreva("    [7] Cartão de crédito \n")
+		escreva("       (mais de 2 vezes) \n")
+		escreva("...............................\n")
+		escreva("Infome a opção de pagamento: ")
+		leia(opcao)
+		se(opcao == 7)
+		{
+			escreva("   Quantas de parcelas: ")
+			leia(parcelas)
+		}
+		escreva("-------------------------------\n")
+		
+		escreva(" Calculando pagamento ")
+		u.aguarde(500)
+		escreva(".")
+		u.aguarde(500)
+		escreva(".")
+		u.aguarde(500)
+		escreva(".")
+		u.aguarde(500)
+		escreva(".")
+		u.aguarde(500)
+		escreva(".")
+		u.aguarde(500)
+		escreva(".")
+		u.aguarde(500)
+		escreva(".")
+		u.aguarde(500)
+		escreva(".")
+		u.aguarde(1000)
+		limpa()
+
+		escolha (opcao)
+		{
+			caso 1:
+				preco_pagar = preco - (preco * 0.1)
+				escreva("----------------------------------------\n")
+				escreva(" Pagamento a vista tem 10% de desconto! \n")
+				escreva("........................................\n")
+				escreva("  Preço total: ............. R$ ", preco_pagar,"\n")
+				escreva("----------------------------------------\n")
+				pare
+
+			caso 2:
+				preco_pagar = preco + (preco * 0.05)
+				escreva("------------------------------------------------\n")
+				escreva(" Pagamento à prazo de 30 dias tem 5% de juros! \n")
+				escreva("................................................\n")
+				escreva("    Preço total: ............. R$ ", preco_pagar,"\n")
+				escreva("------------------------------------------------\n")
+				pare
+
+			caso 3:
+				preco_pagar = preco - (preco * 0.1)
+				escreva("----------------------------------------\n")
+				escreva(" Pagamento a vista tem 10% de desconto! \n")
+				escreva("........................................\n")
+				escreva("  Preço total: ............. R$ ", preco_pagar,"\n")
+				escreva("----------------------------------------\n")
+				pare
+
+		}
+		
+		
+		
+	}
+}
+
+/* $$$ Portugol Studio $$$ 
+ * 
+ * Esta seção do arquivo guarda informações do Portugol Studio.
+ * Você pode apagá-la se estiver utilizando outro editor.
+ * 
+ * @POSICAO-CURSOR = 2324; 
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = ;
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+ */
