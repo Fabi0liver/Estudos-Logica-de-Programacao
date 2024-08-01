@@ -1,29 +1,40 @@
                                          COMANDO 'ESCOLHA CASO'
 
- O comando 'escolha caso' é um estrutura de controle de fluxo utilizada em várias linguagens de programação. Sua
-função principal é selecionar e executar um bloco de código dentre vários possíveis, como base no valor de um expressão ou variável. Este comando é conhecido como 'switch case' em muitas linguagens e 'case' em outras.
+ O comando 'escolha caso' é um estrutura de controle de fluxo utilizada em várias linguagens de programação. 
+Sua função principal é selecionar e executar um bloco de código dentre vários possíveis, como base no valor 
+de um expressão ou variável. Este comando é conhecido como 'switch case' em muitas linguagens e 'case' em outras.
 
 
      Componentes do Comando 'escolha caso'
 
-- Palavra-chave de Inicialização: A estrutura geralmente começa com uma palavra-chave específica que indica o início da seleção baseada e, casos. Em muitas linguagens, esta palavra-chave é 'switch' ou 'case'.
+- Palavra-chave de Inicialização: A estrutura geralmente começa com uma palavra-chave específica que indica o 
+início da seleção baseada e, casos. Em muitas linguagens, esta palavra-chave é 'switch' ou 'case'.
 
-- Variáveis ou Expressões de Controle: após a palavra-chave de inicialização, uma variável ou expressão é especificada. Está variável ou expressão  será avaliada e seu valor determinará qual bloco de código será executado.
+- Variáveis ou Expressões de Controle: após a palavra-chave de inicialização, uma variável ou expressão é especificada.
+Está variável ou expressão  será avaliada e seu valor determinará qual bloco de código será executado.
 
-- Casos (cases): Dentro da estrutura 'escolha caso', são definidos múltiplos casos, cada um representando um possível valor de variável ou expressão de controle. Para cada caso, há um bloco de código associado que será executado se a variável de controle corresponder ao valor do caso.
+- Casos (cases): Dentro da estrutura 'escolha caso', são definidos múltiplos casos, cada um representando um possível 
+valor de variável ou expressão de controle. Para cada caso, há um bloco de código associado que será executado se a 
+variável de controle corresponder ao valor do caso.
 
-- Bloco de Código: Cada caso tem um bloco de código associado. Estes blocos de códigos é executado quando o valor da variável de controle corresponde ao valor especificado no caso.
+- Bloco de Código: Cada caso tem um bloco de código associado. Estes blocos de códigos é executado quando o valor da
+variável de controle corresponde ao valor especificado no caso.
 
-- Palavra-chave de Terminação (Pare ou Break): Em muitas implementações, cada caso é seguido por uma palavra-chave de terminação, geralmente 'break'. Essa palavra-chave impede a execução os blocos de código dos casos subsequentes após a correspondência de um caso.
+- Palavra-chave de Terminação (Pare ou Break): Em muitas implementações, cada caso é seguido por uma palavra-chave de 
+terminação, geralmente 'break'. Essa palavra-chave impede a execução os blocos de código dos casos subsequentes após a
+correspondência de um caso.
 
-- Caso Padrão (Default): Opcionalmente, um caso padrão pode ser definido para lidar com quaisquer valores da variável de controle que não correspondam a nenhum dos casos específicos. Estes caso padrão garante que sempre haverá um bloco de código a ser executado, mesmo se nenhum dos casos definidos for correspondente.
+- Caso Padrão (Default): Opcionalmente, um caso padrão pode ser definido para lidar com quaisquer valores da variável 
+de controle que não correspondam a nenhum dos casos específicos. Estes caso padrão garante que sempre haverá um bloco 
+de código a ser executado, mesmo se nenhum dos casos definidos for correspondente.
 
 
     Exemplo de escolha caso em Portugol:
  
 * Problema:
 
- Queremos criar um programa que, dado um número representando um dia da semana, exiba o nome do dia correspondente. Se o número não corresponder a um dia válido (1 a 7), exibirá uma mensagem indicando que o número é inválido.
+ Queremos criar um programa que, dado um número representando um dia da semana, exiba o nome do dia correspondente. 
+Se o número não corresponder a um dia válido (1 a 7), exibirá uma mensagem indicando que o número é inválido.
 
 
 * Código:
@@ -63,15 +74,18 @@ fimalgoritmo
 
 * Explicação Detalhada do exemplo:
 
-- Declaração de Variável: O programa começa declarando uma variável dia do tipo inteiro, que armazenará o número digitado pelo usuário.
+- Declaração de Variável: O programa começa declarando uma variável dia do tipo inteiro, que armazenará o número digitado 
+pelo usuário.
 
 - Entrada do Usuário: Usa as instruções escreva e leia para solicitar ao usuário que digite um número de 1 a 7.
 
 - Palavra-chave escolha: Inicia a estrutura de controle e avalia a variável dia.
 
-- Casos Específicos (caso 1, caso 2, etc.): Cada caso compara o valor de dia com um número específico. Se o valor de dia corresponder ao número do caso, o bloco de código associado será executado, exibindo o nome do dia correspondente.
+- Casos Específicos (caso 1, caso 2, etc.): Cada caso compara o valor de dia com um número específico. Se o valor de dia 
+corresponder ao número do caso, o bloco de código associado será executado, exibindo o nome do dia correspondente.
 
-- Caso Padrão (caso contrario): Se o valor de dia não corresponder a nenhum dos casos especificados, o bloco de código no caso contrario será executado, exibindo uma mensagem de número inválido.
+- Caso Padrão (caso contrario): Se o valor de dia não corresponder a nenhum dos casos especificados, o bloco de código
+no caso contrario será executado, exibindo uma mensagem de número inválido.
 
 - Palavra-chave fimescolha: Finaliza a estrutura escolha caso.
 
@@ -79,44 +93,61 @@ fimalgoritmo
 
    Benefícios do Comando escolha caso
 
- O comando escolha caso oferece vários benefícios significativos em termos de legibilidade, eficiência e manutenção do código. Vamos explorar esses benefícios em detalhes:
+ O comando escolha caso oferece vários benefícios significativos em termos de legibilidade, eficiência e manutenção do código.
+Vamos explorar esses benefícios em detalhes:
 
 1. Legibilidade
 
-- Estrutura Clara: O escolha caso organiza as condições de forma clara e lógica, tornando o código mais fácil de ler e entender. Cada caso é explicitamente separado, facilitando a visualização das diferentes condições.
+- Estrutura Clara: O escolha caso organiza as condições de forma clara e lógica, tornando o código mais fácil de ler e entender.
+Cada caso é explicitamente separado, facilitando a visualização das diferentes condições.
 
-- Foco na Variável de Controle: Como todas as comparações são feitas com uma única variável ou expressão de controle, fica mais simples seguir o fluxo lógico do programa.
+- Foco na Variável de Controle: Como todas as comparações são feitas com uma única variável ou expressão de controle, fica 
+mais simples seguir o fluxo lógico do programa.
 
 2. Manutenção
 
-- Centralização das Condições: Todas as condições relacionadas a uma variável específica estão centralizadas em um único bloco de código. Isso facilita a manutenção e atualização das condições, pois elas estão todas localizadas em um único lugar.
+- Centralização das Condições: Todas as condições relacionadas a uma variável específica estão centralizadas em um único bloco
+de código. Isso facilita a manutenção e atualização das condições, pois elas estão todas localizadas em um único lugar.
 
-- Facilidade de Modificação: Adicionar, remover ou modificar casos é mais simples em uma estrutura escolha caso do que em uma série de instruções 'se' (if) encadeadas. Cada caso é independente, o que reduz o risco de erros ao fazer alterações.
+- Facilidade de Modificação: Adicionar, remover ou modificar casos é mais simples em uma estrutura escolha caso do que em uma 
+série de instruções 'se' (if) encadeadas. Cada caso é independente, o que reduz o risco de erros ao fazer alterações.
 
 3. Eficiência
 
-- Comparação Direta: Muitas implementações de 'escolha caso' utilizam tabelas de dispersão (hash tables) ou árvores de decisão internamente, o que pode tornar a seleção do caso apropriado mais rápida do que uma série de comparações sequenciais em instruções 'se' (if).
+- Comparação Direta: Muitas implementações de 'escolha caso' utilizam tabelas de dispersão (hash tables) ou árvores de decisão 
+internamente, o que pode tornar a seleção do caso apropriado mais rápida do que uma série de comparações sequenciais em 
+instruções 'se' (if).
 
-- Execução Otimizada: Algumas linguagens otimizam a execução do 'escolha caso', especialmente quando há muitos casos a serem verificados. Isso pode resultar em uma melhoria de desempenho em comparação com estruturas de controle alternativas.
+- Execução Otimizada: Algumas linguagens otimizam a execução do 'escolha caso', especialmente quando há muitos casos a serem
+verificados. Isso pode resultar em uma melhoria de desempenho em comparação com estruturas de controle alternativas.
 
 4. Redução de Erros
 
-- Prevenção de Condições Omissas: Com um caso padrão (default), você pode garantir que sempre haverá um bloco de código que será executado, mesmo se nenhum dos casos especificados corresponder ao valor da variável de controle. Isso ajuda a prevenir erros que poderiam ocorrer devido a condições não tratadas.
+- Prevenção de Condições Omissas: Com um caso padrão (default), você pode garantir que sempre haverá um bloco de código que 
+será executado, mesmo se nenhum dos casos especificados corresponder ao valor da variável de controle. Isso ajuda a prevenir 
+erros que poderiam ocorrer devido a condições não tratadas.
 
-- Eliminação de Redundância: A estrutura 'escolha caso 'reduz a redundância ao evitar múltiplas verificações da mesma variável. Isso minimiza a chance de erros de lógica que podem ocorrer em estruturas de controle mais complexas.
+- Eliminação de Redundância: A estrutura 'escolha caso 'reduz a redundância ao evitar múltiplas verificações da mesma variável.
+Isso minimiza a chance de erros de lógica que podem ocorrer em estruturas de controle mais complexas.
 
 5. Flexibilidade
 
-- Casos Agrupados: Algumas linguagens permitem agrupar vários valores sob um único caso, o que pode simplificar a lógica do programa. Por exemplo, é possível tratar vários valores semelhantes de maneira conjunta, o que economiza linhas de código e melhora a clareza.
+- Casos Agrupados: Algumas linguagens permitem agrupar vários valores sob um único caso, o que pode simplificar a lógica do 
+programa. Por exemplo, é possível tratar vários valores semelhantes de maneira conjunta, o que economiza linhas de código e
+melhora a clareza.
 
-- Comportamento Controlado: O uso da palavra-chave 'break' permite controlar precisamente quando a execução deve continuar para o próximo caso, oferecendo flexibilidade adicional para situações onde o comportamento "fall-through" é desejável.
+- Comportamento Controlado: O uso da palavra-chave 'break' permite controlar precisamente quando a execução deve continuar 
+para o próximo caso, oferecendo flexibilidade adicional para situações onde o comportamento "fall-through" é desejável.
 
 
 
      Considerações Adicionais
 
-- Fall-through: Em algumas linguagens, se não houver uma palavra-chave de terminação como 'break', a execução continuará para o próximo caso, um comportamento conhecido como "fall-through". Isso pode ser útil em algumas situações, mas geralmente é evitado para manter a clareza do código.
+- Fall-through: Em algumas linguagens, se não houver uma palavra-chave de terminação como 'break', a execução continuará para 
+o próximo caso, um comportamento conhecido como "fall-through". Isso pode ser útil em algumas situações, mas geralmente é 
+evitado para manter a clareza do código.
 
-- Casos com Múltiplos Valores: Algumas linguagens permitem que um único bloco de código seja associado a múltiplos valores da variável de controle, facilitando a implementação de casos semelhantes.
+- Casos com Múltiplos Valores: Algumas linguagens permitem que um único bloco de código seja associado a múltiplos valores da 
+variável de controle, facilitando a implementação de casos semelhantes.
 
 
