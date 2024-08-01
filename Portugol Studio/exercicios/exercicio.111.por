@@ -42,7 +42,7 @@ programa
 		escreva("    [4] À prazo de 90 dias \n")
 		escreva("    [5] Cartão de débito \n")
 		escreva("    [6] Cartão de crédito \n")
-		escreva("       (em até 2 vezes) \n")
+		escreva("         (em 2 vezes) \n")
 		escreva("    [7] Cartão de crédito \n")
 		escreva("       (mais de 2 vezes) \n")
 		escreva("...............................\n")
@@ -96,13 +96,33 @@ programa
 				pare
 
 			caso 3:
-				preco_pagar = preco - (preco * 0.1)
+				preco_pagar = preco + (preco * 0.07)
+				escreva("------------------------------------------------\n")
+				escreva(" Pagamento à prazo de 60 dias tem 7% de juros! \n")
+				escreva("................................................\n")
+				escreva("    Preço total: ............. R$ ", preco_pagar,"\n")
+				escreva("------------------------------------------------\n")
+				pare
+
+			caso 4:
+				preco_pagar = preco + (preco * 0.1)
+				escreva("------------------------------------------------\n")
+				escreva(" Pagamento à prazo de 90 dias tem 10% de juros! \n")
+				escreva("................................................\n")
+				escreva("    Preço total: ............. R$ ", preco_pagar,"\n")
+				escreva("------------------------------------------------\n")
+				pare
+
+			caso 5:
+				preco_pagar = preco 
 				escreva("----------------------------------------\n")
-				escreva(" Pagamento a vista tem 10% de desconto! \n")
+				escreva(" Pagamento a vista no cartão de débito! \n")
 				escreva("........................................\n")
 				escreva("  Preço total: ............. R$ ", preco_pagar,"\n")
 				escreva("----------------------------------------\n")
 				pare
+
+				
 
 		}
 		
@@ -116,7 +136,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2324; 
+ * @POSICAO-CURSOR = 3838; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
