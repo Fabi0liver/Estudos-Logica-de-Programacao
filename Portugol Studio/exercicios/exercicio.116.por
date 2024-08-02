@@ -9,7 +9,8 @@ programa
     
     funcao inicio()
     {
-    		inteiro opcao, resultado  , valor1, valor2
+    		inteiro opcao, resultado , valor1, valor2
+    	
     		
     		escreva("========================\n")
     		escreva("      CALCULADORA \n")
@@ -19,17 +20,23 @@ programa
 		escreva("  [3] Multiplicação \n")
 		escreva("  [4] Divisão \n")
 		escreva("  [5] Resto da Divisão \n")
-		escreva("  [6] Potência \n")
+		escreva("  [6] Potênciação\n")
 		escreva("  [7] Raiz Quadrada\n")
 		escreva("------------------------\n")
 		escreva(" Informe a operação: ")
 		leia(opcao)
 		escreva("========================\n")
-		escreva("      AGUARDE...\n ")
-		u.aguarde(2000)
-		limpa()
 		
-
+		se(opcao > 7){
+		 	escreva("   OPÇÃO INVÁLIDA!\n")
+		}
+		senao
+		{
+			escreva("      AGUARDE...\n ")
+			u.aguarde(2000)
+		  	limpa()
+		}
+		
 		escolha (opcao)
 		{
 			caso 1:
@@ -97,15 +104,36 @@ programa
 				escreva("===================================\n")
 				pare
 
-			
-
+			caso 6:
+				escreva("=====================================\n")
+				escreva("       OPERAÇÃO: POTÊNCIAÇÃO \n")
+				escreva("=====================================\n")
+				escreva("      Informe o Valor Base: ")
+				leia(valor1)
+				escreva("       Informe o Expoente: ")
+				leia(valor2)
+				escreva("-------------------------------------\n")
 				
-		}
+				resultado = m.potencia(valor1, valor2)
+				
+				escreva( " O ", valor1, " elevado à ", valor2, "ª Potência é: ", resultado, "\n")
+				escreva("=====================================\n")
+				pare
 
-		
-		
-		
-    		
+			caso 7:
+				escreva("===================================\n")
+				escreva("      OPERAÇÃO: RAIZ QUADRADA \n")
+				escreva("===================================\n")
+				escreva("  Informe o valor Radicando: ")
+				leia(valor1)
+				escreva("-----------------------------------\n")
+
+				resultado = m.raiz(valor1, 2)
+				
+				escreva("   A Raiz Quadrada de ", valor1, " é : ", resultado, " \n")
+				escreva("===================================\n")
+				pare	
+		}
     }
 }
 
@@ -114,7 +142,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 3397; 
+ * @POSICAO-CURSOR = 4351; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
