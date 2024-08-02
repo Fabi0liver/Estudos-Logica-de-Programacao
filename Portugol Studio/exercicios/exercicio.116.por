@@ -5,10 +5,11 @@ programa
     Conforme a opção escolhida pelo usuário, uma operação diferente da calculadora deve ser executada. */
 
     inclua biblioteca Matematica --> m
+    inclua biblioteca Util --> u
     
     funcao inicio()
     {
-    		inteiro opcao, resultado
+    		inteiro opcao, resultado, valor1, valor2
     		
     		escreva("========================\n")
     		escreva("      CALCULADORA \n")
@@ -23,7 +24,26 @@ programa
 		escreva("------------------------\n")
 		escreva(" Informe a operação: ")
 		leia(opcao)
-		escreva("------------------------\n")
+		escreva("========================\n")
+		escreva("      AGUARDE...\n ")
+		u.aguarde(2000)
+		limpa()
+		
+
+		escolha (opcao)
+		{
+			caso 1:
+				escreva("=============================\n")
+				escreva("      OPERAÇÃO: SOMA \n")
+				escreva("=============================\n")
+				escreva(" Informe o primeiro Valor: ")
+				leia(valor1)
+				escreva(" Informe o segundo  Valor: ")
+				leia(valor2)
+				escreva("-----------------------------\n")
+
+				
+		}
 
 		
 		
@@ -37,7 +57,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 816; 
+ * @POSICAO-CURSOR = 1002; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
