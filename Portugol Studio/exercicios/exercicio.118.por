@@ -31,7 +31,7 @@ programa
 		// 2: Computador: PAPEL
 		// 3: Computador: PEDRA
 		
-		se(jogador == "Tesoura")
+		se(jogador == "Tesoura" ou jogador == "tesoura")
 		{
 			se(aleatorio == 1)
 			{
@@ -67,7 +67,7 @@ programa
 			}
 		}
 		
-		senao se(jogador == "Papel")
+		senao se(jogador == "Papel" ou jogador == "papel")
 		{
 			se(aleatorio == 2)
 			{
@@ -103,7 +103,7 @@ programa
 			}
 		}
 		
-		senao se (jogador == "Pedra")
+		senao se (jogador == "Pedra" ou jogador == "pedra")
 		{
 			se(aleatorio == 3)
 			{
@@ -135,19 +135,33 @@ programa
 				escreva("   Computador: TESOURA \n")
 				escreva("-------------------------\n")
 				escreva("  Pedra quebra Tesoura! \n")
-				escreva("      VOCÊ PERDEU!! \n   ")
+				escreva("      VOCÊ GANHOU!! \n   ")
 			}
 		}
-		
+		senao
+		{
+			escreva("--------------------------------\n")
+			escreva("  Não há '", jogador, "' nesse jogo! \n")
+			escreva("        VOCÊ PERDEU!! \n")
+			escreva("--------------------------------\n")
+		}
+
+		u.aguarde(6000)
+		limpa()
+
+		escreva("~~~~~~~~~~~~~~~~~~~~~~\n")
+		escreva("   GOSTOU DO JOGO?! \n")
+		escreva("~~~~~~~~~~~~~~~~~~~~~~\n")
+		escreva("  Pode tentar denovo\n     se quiser! \n")
 	}
-}*/
+}
 
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 3774; 
+ * @POSICAO-CURSOR = 4229; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
