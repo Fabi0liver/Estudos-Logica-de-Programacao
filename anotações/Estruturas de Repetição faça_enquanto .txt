@@ -1,0 +1,64 @@
+                             ESTRUTURA DE REPETIÇÃO FAÇA-ENQUANTO
+
+  A estrutura de repetição "faça-enquanto" é utilizada quando você quer executar um bloco de código repetidamente enquanto uma determinada condição for verdadeira. A principal característica dessa estrutura é que o bloco de código será executado pelo menos uma vez, já que a condição é verificada depois da execução.
+
+
+   "Processo de Execução se Desenvolve"
+
+
+ Vamos detalhar o processo de execução em passos mais específicos:
+
+ - Execução do Bloco Inicial: Quando o laço "faça-enquanto" é encontrado, o primeiro passo é executar o bloco de código. Nesse momento, a condição ainda não foi avaliada. Isso é fundamental porque garante que o código será executado pelo menos uma vez.
+
+ - Verificação da Condição: Após a primeira execução do bloco, o programa avalia a condição:
+
+         Se a condição for verdadeira: O laço volta ao início do bloco "faça" e executa o código novamente.
+         
+         Se a condição for falsa: O laço é interrompido, e o programa continua com a próxima linha de código que 
+                                  está fora do laço.
+
+ - Ciclo de Repetição: Este processo de execução seguido de verificação da condição continua indefinidamente até que a condição seja falsa. Isso significa que a condição controla quantas vezes o laço será repetido.
+
+ - Encerramento do Laço: Quando a condição se torna falsa, o laço é terminado. O controle do programa passa então para a próxima instrução após o "enquanto".
+
+
+   "Sintaxe Detalhada"
+
+
+ A sintaxe da estrutura "faça-enquanto" no Portugol é a seguinte:
+
+"
+faça
+    // Bloco de código que será repetido
+enquanto (condição)
+"
+
+  - faça: Esta palavra-chave inicia o bloco de código que será repetido.
+  
+  - Bloco de código: São as instruções que você deseja executar repetidamente.
+
+   - enquanto (condição): A palavra-chave "enquanto" é seguida por uma condição lógica entre parênteses. Se a condição for verdadeira, o programa repetirá o bloco de código. Caso seja falsa, o laço de repetição será encerrado.
+
+
+   "Vantagens e Desvantagens"
+
+
+Vantagens:
+
+- Garante que o bloco de código seja executado ao menos uma vez, útil em situações onde a primeira execução é necessária para definir a condição.
+
+- É intuitivo e fácil de entender quando se precisa de uma execução inicial.
+
+
+Desvantagens:
+
+- Pode ser menos eficiente se a condição não precisa ser verificada após uma primeira execução obrigatória, levando a uma possível execução desnecessária.
+
+
+  "Comparação com Outras Estruturas"
+
+
+- enquanto: A condição é verificada antes de qualquer execução do bloco de código. Se a condição inicial for falsa, o bloco nunca será executado.
+
+- para: Uma estrutura de repetição mais controlada, geralmente usada quando você sabe exatamente quantas vezes deseja repetir o bloco de código.
+
