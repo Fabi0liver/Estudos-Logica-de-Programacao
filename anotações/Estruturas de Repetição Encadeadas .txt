@@ -1,7 +1,9 @@
                                ESTRUTURA DE REPETIÇÃO ENCADEADA
 
 
- Uma estrutura de repetição encadeada é uma técnica de programação em que uma estrutura de repetição está contida dentro de outra. Isso significa que você está executando uma reprodução dentro de outra, criando um "encadeamento" ou "aninhamento" de repetições.
+ Uma estrutura de repetição encadeada é uma técnica de programação em que uma estrutura de repetição 
+está contida dentro de outra. Isso significa que você está executando uma reprodução dentro de outra,
+criando um "encadeamento" ou "aninhamento" de repetições.
 
  Estruturas de Repetição Comuns:
 
@@ -9,19 +11,24 @@
 
 - Enquanto(while): Utilizado quando a condição do termo não é conhecida anteriormente.
 
-- Faça-Enquanto(do-while0: Semelhante ao "enquanto", mas garante que o bloco de código será executado pelo menos uma vez.
+- Faça-Enquanto(do-while0: Semelhante ao "enquanto", mas garante que o bloco de código será executado
+  pelo menos uma vez.
 
 
     "Propósito  das estruturas de repetição encadeadas"
 
 
-O objetivo de usar estruturas de repetição encadeadas é permitir a execução de tarefas complexas que exigem vários níveis de iteração. Este encadeamento é essencial quando:
+O objetivo de usar estruturas de repetição encadeadas é permitir a execução de tarefas complexas 
+que exigem vários níveis de iteração. Este encadeamento é essencial quando:
 
- - Trabalha-se com estruturas de dados multidimensionais , como matrizes (tabelas), onde você precisa percorrer tanto as linhas quanto as colunas.
+ - Trabalha-se com estruturas de dados multidimensionais , como matrizes (tabelas), onde você precisa
+   percorrer tanto as linhas quanto as colunas.
 
- - Processamento de conjuntos de dados que possuem vários níveis, como listas dentro de listas, ou dados organizados em uma classificação.
+ - Processamento de conjuntos de dados que possuem vários níveis, como listas dentro de listas, ou 
+   dados organizados em uma classificação.
 
- - Cálculos iterativos complexos , onde cada etapa do cálculo depende de diversas variações ou condições que precisam ser repetidas em diferentes níveis.
+ - Cálculos iterativos complexos , onde cada etapa do cálculo depende de diversas variações ou condições 
+   que precisam ser repetidas em diferentes níveis.
 
 
 
@@ -35,13 +42,13 @@ O objetivo de usar estruturas de repetição encadeadas é permitir a execução
 
 2. Início da Repetição Interna:
 
-   Dentro do corpo da repetição externa, a estrutura de repetição interna começa e executa todas as suas iterações
-  antes de retornar para a próxima iteração da repetição externa.
+   Dentro do corpo da repetição externa, a estrutura de repetição interna começa e executa todas as 
+  suas iterações antes de retornar para a próxima iteração da repetição externa.
  
 3.Continuação da Repetição Externa:
 
-   Após a repetição interna terminar todas as suas iterações, o controle retorna para a repetição externa, que   
-  avança para a próxima iteração.
+   Após a repetição interna terminar todas as suas iterações, o controle retorna para a repetição 
+ externa, que  avança para a próxima iteração.
 
 4.Repetição do Processo:
 
@@ -65,9 +72,12 @@ fim-para
 
 Entendendo a sintaxe:
 
- - Repetição Externa ( para cada linha): Inicia com a primeira linha. Vai controlar quantas linhas serão processadas.
+ - Repetição Externa ( para cada linha): Inicia com a primeira linha. Vai controlar quantas linhas serão 
+   processadas.
 
- - Repetição Interna ( para cada coluna): Para cada linha da matriz, você vai iterar sobre todas as colunas dessa linha. Quando uma reprodução interna termina para uma linha, uma reprodução externa passa para a próxima linha.
+ - Repetição Interna ( para cada coluna): Para cada linha da matriz, você vai iterar sobre todas as colunas
+   dessa linha. Quando uma reprodução interna termina para uma linha, uma reprodução externa passa para a
+próxima linha.
 
 - Finalização: Quando todas as linhas e colunas foram processadas, a execução do código termina.
 
@@ -77,23 +87,28 @@ Entendendo a sintaxe:
 
 1.Percorrer uma Matriz: 
 
- Em uma tabela de números, a repetição externa poderia percorrer as linhas, e a interna, as colunas, permitindo acessar cada elemento individualmente.
+ Em uma tabela de números, a repetição externa poderia percorrer as linhas, e a interna, as colunas, permitindo 
+acessar cada elemento individualmente.
 
 2.Processamento de Arquivos: 
 
- Na análise de texto, uma reprodução externa pode processar linhas de texto, enquanto um processo interno como palavras dentro de cada linha.
+ Na análise de texto, uma reprodução externa pode processar linhas de texto, enquanto um processo interno como p
+alavras dentro de cada linha.
 
 3.Cálculos Iterativos: 
 
- Imagine que você precisa calcular a soma de uma série de números em diferentes faixas de valores. A reprodução externa poderia controlar a faixa, enquanto a interna somaria os valores dentro dessa faixa.
+ Imagine que você precisa calcular a soma de uma série de números em diferentes faixas de valores. A reprodução 
+externa poderia controlar a faixa, enquanto a interna somaria os valores dentro dessa faixa.
 
 
 
    "Considerações Importantes"
 
 
- - Complexidade: Cada nível adicional de reprodução encadeada aumenta a complexidade do código e pode impactar o desempenho, especialmente em grandes conjuntos de dados.
+ - Complexidade: Cada nível adicional de reprodução encadeada aumenta a complexidade do código e pode impactar o 
+desempenho, especialmente em grandes conjuntos de dados.
 
- - Legibilidade: Embora a reprodução encadeada seja poderosa, ela pode tornar o código mais difícil de entender se não for bem documentado ou usado de maneira excessiva.
+ - Legibilidade: Embora a reprodução encadeada seja poderosa, ela pode tornar o código mais difícil de entender se não 
+for bem documentado ou usado de maneira excessiva.
 
 
