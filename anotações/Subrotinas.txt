@@ -81,5 +81,64 @@ Abaixo, detalho as principais características de uma subrotina:
 
 
 
+                                   "Estrutura de uma Subrotina"
 
+Os componentes de uma subrotina são os elementos fundamentais que definem sua estrutura e funcionalidade. Cada um desses componentes desempenha um papel crucial na forma como a subrotina opera dentro de um programa. 
+
+Vamos detalhar cada um deles:
+
+- Nome da Subrotina: O nome da subrotina é um identificador único que serve para distinguir essa subrotina de outras no programa. Esse nome é utilizado para chamar ou invocar a subrotina de diferentes partes do código.
+
+   Função: Facilita o acesso e a invocação da subrotina. Um nome bem escolhido deve ser descritivo e indicar 
+          claramente o que a subrotina faz.
+
+
+- Parâmetros de Entrada (opcional): Parâmetros de entrada são variáveis ou valores que são passados para a subrotina no momento em que ela é chamada. Esses parâmetros fornecem dados específicos que a subrotina usará em suas operações.
+
+  Função: Tornam a subrotina mais flexível e reutilizável, permitindo que ela opere sobre diferentes conjuntos de 
+         dados ou em diferentes contextos. Os parâmetros são definidos entre parênteses após o nome da subrotina.
+
+
+- Corpo da Subrotina: O corpo da subrotina é o bloco de código que contém as instruções que definem o que a subrotina faz. Este é o conjunto de comandos que será executado quando a subrotina for chamada.
+
+  Função: Realiza a tarefa específica para a qual a subrotina foi criada. Pode incluir operações lógicas, loops,    
+         manipulação de dados, e até mesmo chamadas a outras subrotinas.
+
+
+- Valor de Retorno (opcional): Em subrotinas do tipo função, pode haver um valor de retorno, que é o resultado da execução da subrotina. Esse valor é devolvido ao ponto de chamada após a execução da subrotina.
+
+  Função: Fornece um resultado que pode ser utilizado pelo código que chamou a subrotina. O valor de retorno é geralmente especificado após a palavra-chave "return" ou equivalente, dependendo da linguagem de programação.
+
+
+- Escopo das Variáveis: O escopo refere-se ao contexto no qual as variáveis dentro da subrotina podem ser acessadas. Em geral, variáveis declaradas dentro da subrotina são locais, ou seja, só existem e podem ser usadas dentro daquela subrotina.
+
+  Função: Mantém as variáveis isoladas dentro da subrotina, evitando conflitos com variáveis de mesmo nome em  
+         outras partes do programa. Isso também ajuda a proteger a integridade dos dados e a modularidade do 
+         código.
+
+- Chamadas de Subrotinas: As chamadas de subrotinas ocorrem quando o código em outra parte do programa invoca a subrotina pelo seu nome, possivelmente passando parâmetros.
+
+   Função: Ativa a execução da subrotina, interrompendo temporariamente o fluxo normal do programa para realizar a 
+          tarefa específica contida na subrotina.
+
+
+-  Comentários (opcional): Comentários são notas no código que explicam o propósito, o funcionamento, ou qualquer detalhe importante sobre a subrotina. Eles não são executados pelo programa e servem apenas para o entendimento humano.
+
+   Função: Melhoram a legibilidade e a compreensão do código, tanto para o autor quanto para outros 
+          desenvolvedores que possam trabalhar no mesmo código.
+
+
+- Declarações de Tipos (dependendo da linguagem): Em algumas linguagens de programação, você pode precisar declarar os tipos de dados dos parâmetros de entrada e do valor de retorno da subrotina. Isso especifica que tipo de dados a subrotina espera receber e o tipo de dado que ela retornará.
+
+   Função: Garante que a subrotina seja usada corretamente, ajudando a evitar erros de tipo, e proporcionando    
+          clareza sobre o tipo de dados com os quais a subrotina opera.
+
+
+- Instruções de Controle de Fluxo: Estas são estruturas como condicionais (if, else) e loops (for, while) que controlam como o código dentro da subrotina é executado. Elas determinam a lógica e o fluxo das operações dentro da subrotina.
+
+  Função: Permitem que a subrotina realize operações complexas, como executar diferentes ações com base nos 
+         valores dos parâmetros ou repetir operações até que uma condição seja satisfeita.
+
+ 
+ Em resumo esses componentes trabalham juntos para formar uma subrotina funcional e eficiente. O nome identifica e permite a chamada da subrotina, os parâmetros fornecem dados de entrada, o corpo contém a lógica principal, o valor de retorno oferece um resultado, e o escopo controla onde as variáveis podem ser usadas. Comentários e declarações de tipos ajudam na compreensão e segurança do código, enquanto as instruções de controle de fluxo permitem uma execução lógica e organizada das operações dentro da subrotina.
 
