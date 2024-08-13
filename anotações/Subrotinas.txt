@@ -1,0 +1,85 @@
+                                             SUBROTINA
+
+
+ Uma subrotina é um bloco de código que foi escrito para executar uma tarefa específica dentro de um programa. A ideia é encapsular uma série de instruções que realizam uma operação ou conjunto de operações em uma única unidade, que pode ser invocada sempre que necessário.
+
+ Ao invés de escrever o mesmo código repetidas vezes em diferentes partes de um programa, você define uma subrotina e a chama em cada lugar onde aquela funcionalidade é necessária.
+
+
+
+                                 "Características de uma Subrotina:"
+
+ As subrotinas são blocos de código fundamentais na programação e possuem várias características que as tornam úteis e eficientes na organização e execução de tarefas específicas dentro de um programa. 
+
+Abaixo, detalho as principais características de uma subrotina:
+
+
+- Modularidade: Uma das principais características das subrotinas é a modularidade. Isso significa que o código é dividido em módulos menores e mais gerenciáveis. Cada subrotina é um módulo que realiza uma tarefa específica, o que facilita o desenvolvimento, a leitura, e a manutenção do código.
+
+  Benefícios: Ajuda a organizar o código de forma clara e estruturada, possibilitando que diferentes  
+             desenvolvedores trabalhem em diferentes partes do programa ao mesmo tempo.
+
+
+- Reusabilidade: Subrotinas podem ser chamadas múltiplas vezes em diferentes partes de um programa ou até mesmo em programas diferentes. Uma vez criada, uma subrotina pode ser reutilizada sempre que a tarefa que ela realiza for necessária.
+
+  Benefícios: Reduz a necessidade de duplicação de código, economiza tempo, e minimiza erros, já que a lógica da  
+             tarefa está centralizada em um único lugar.
+
+
+- Isolamento: Subrotinas operam de maneira independente, isolando as operações realizadas dentro delas do restante do código. Isso significa que as variáveis e operações dentro de uma subrotina não interferem diretamente no restante do programa, a menos que sejam explicitamente projetadas para isso.
+
+  Benefícios: Facilita a depuração e a correção de erros, pois problemas podem ser isolados e corrigidos dentro da 
+             subrotina sem afetar outras partes do programa.
+
+
+- Entrada de Parâmetros: Subrotinas podem receber parâmetros, que são dados passados para a subrotina quando ela é chamada. Esses parâmetros permitem que a subrotina seja mais flexível e generalizada, capaz de operar com diferentes conjuntos de dados.
+
+   Benefícios: Torna a subrotina versátil e aplicável em diversos contextos, aumentando sua utilidade.
+
+
+- Valor de Retorno (opcional): Algumas subrotinas, particularmente as chamadas "funções", podem retornar um valor para o código que as chamou. Esse valor é o resultado das operações realizadas dentro da subrotina.
+
+   Benefícios: Permite que a subrotina produza um resultado que pode ser usado em cálculos, tomadas de decisão ou 
+              outras operações no programa principal.
+
+
+- Facilidade de Manutenção: Como a lógica para uma tarefa específica está centralizada em uma subrotina, qualquer modificação necessária pode ser feita diretamente na subrotina, sem a necessidade de alterar várias partes do código.
+
+   Benefícios: Simplifica a manutenção e atualização do código, tornando-o mais robusto e menos propenso a erros.
+
+
+- Recursividade (opcional): Algumas subrotinas têm a capacidade de se chamar a si mesmas, um processo conhecido como recursividade. Isso é útil para resolver problemas que podem ser decompostos em subproblemas semelhantes.
+
+   Benefícios: Permite soluções elegantes para problemas complexos, como algoritmos de busca e ordenação, árvores, 
+              e outras estruturas de dados.
+
+
+- Legibilidade: Subrotinas ajudam a melhorar a legibilidade do código. Dando nomes significativos às subrotinas, você torna o código mais fácil de entender, pois cada subrotina descreve uma ação ou processo específico.
+
+   Benefícios: Facilita o entendimento do programa, tanto para o desenvolvedor original quanto para outros que 
+              possam trabalhar no código no futuro.
+
+
+-  Escopo de Variáveis: Variáveis definidas dentro de uma subrotina geralmente têm um escopo limitado àquela subrotina, ou seja, elas não podem ser acessadas fora dela, a menos que sejam retornadas ou definidas globalmente.
+
+   Benefícios: Evita conflitos de nomes e garante que as variáveis locais sejam usadas apenas dentro do contexto 
+               da subrotina, promovendo a segurança e a integridade dos dados.
+
+
+- Eficiência: Subrotinas podem melhorar a eficiência do código ao reduzir a quantidade de código repetido e centralizar operações complexas em um único lugar. Isso pode levar a um desempenho mais eficiente, especialmente em programas grandes e complexos.
+
+   Benefícios: Otimiza o uso de recursos e simplifica a complexidade do código.
+
+
+- Abstração: Subrotinas permitem que você trabalhe com níveis mais altos de abstração. Ao encapsular detalhes de implementação dentro de uma subrotina, você pode focar em "o que" uma subrotina faz, em vez de "como" ela faz.
+
+   Benefícios: Melhora a clareza do código e permite que você se concentre no design de alto nível e na lógica  
+              geral do programa.
+
+
+ Essas características fazem das subrotinas uma ferramenta essencial na programação, promovendo um desenvolvimento de software mais organizado, eficiente e fácil de manter.
+
+
+
+
+
