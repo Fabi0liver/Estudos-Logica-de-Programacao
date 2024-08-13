@@ -220,7 +220,97 @@ Reutilização de Código: Subrotinas podem ser chamadas em várias partes do pr
 
 
 
+                                          "Tipos de Subrotinas"
+
+ As subrotinas podem ser classificadas em diferentes tipos com base em suas características e na forma como são usadas em um programa. 
+
+ Abaixo, vou detalhar os principais tipos de subrotinas:
+
+- Procedimentos (ou Rotinas): Procedimentos são subrotinas que realizam uma série de operações, mas não retornam um valor ao chamador. Eles são usados para agrupar código que executa uma tarefa específica, como imprimir dados, modificar variáveis globais, ou realizar cálculos intermediários.
+
+ Características:     
+                   
+              - Não têm valor de retorno explícito.
+              - Podem modificar variáveis globais ou locais.
+              - São invocados principalmente para realizar ações ou efeitos colaterais.
+
+ Uso Comum: São frequentemente usados para tarefas como exibir mensagens na tela, atualizar registros em um banco  
+           de dados, ou manipular arquivos.
+
+ Sintaxe Básica: ' procedimento nome_do_procedimento( tipo parametro1 , tipo parametro2)
+                        
+                         // Corpo do procedimento
+                        // Instruções que serão executadas quando o procedimento for chamado
+                   
+                   fimalgoritmo"
+
+
+                   Componentes da Sintaxe:
+                      
+                       - procedimento: Palavra-chave usada para definir o início de um procedimento.
+                       - nome_do_procedimento: Nome do procedimento. Deve ser único e descritivo.
+                       -Parâmetros: Lista opcional de parâmetros que o procedimento pode receber. Cada parâmetro  
+                                   tem um nome e um tipo de dado associado.
+                       - Corpo do Procedimento: Conjunto de instruções que definem o que o procedimento faz. Essas 
+                                               instruções são executadas sempre que o procedimento é chamado.
+                       - fimalgoritmo: Palavra-chave que marca o fim do procedimento.
+  
+
+  Chamada de um Procedimento: Para usar um procedimento, você simplesmente o chama pelo nome, passando os        
+                             argumentos necessários, se houver. 
+
+  Exemplo de chamadas:  nome_do_procedimento() // Chama o procedimento sem parâmetros
+                                                  ou
+                         nome_do_procedimento(parâmetro) // Chama o procedimento com um parâmetro
+
+
+- Funções: Funções são subrotinas que, ao contrário dos procedimentos, retornam um valor ao chamador. Além de executar uma série de operações, elas produzem um resultado que pode ser usado em outras partes do programa.
+
+  Características:
+               
+              - Sempre retornam um valor, que pode ser de qualquer tipo de dado (inteiro, string, objeto, etc.).
+              - São invocadas com a expectativa de que devolvam um valor útil, como o resultado de um cálculo.
+              - Podem ser usadas dentro de expressões e atribuições de variáveis.
+
+  Uso Comum: São utilizadas para cálculos matemáticos, processamento de strings, validação de dados, e operações 
+            que precisam de um resultado para continuar a execução do programa.
+
+  Sintaxe Básica: ' funcao tipo nome_da_funcao(tipo parametro1 , tipo parametro2)
+                       // Corpo da função
+                       // Instruções que serão executadas quando a função for chamada
+    
+                        retorne valor // Devolvendo um valor do tipo especificado
+                   fimalgoritmo '
+
+
+                   Componentes da Sintaxe:
+                      
+                       - funcao: Palavra-chave usada para definir o início de uma função.
+                       - tipo: O tipo de dado que a função retornará (ex: inteiro, real, cadeia, etc.).
+                       - nome_da_funcao: Nome da função, que deve ser único e descritivo.
+                       - Parâmetros: Lista opcional de parâmetros que a função pode receber. Cada parâmetro tem um 
+                                    nome e um tipo de dado associado.
+                       - tipo_retorno: O tipo de dado que a função retornará.
+                       - Corpo da Função: Conjunto de instruções que definem o que a função faz.
+                       - retorne: Palavra-chave usada para devolver um valor como resultado da função.
+                       - fimalgoritmo: Palavra-chave que marca o fim da função.
+
+
+  Chamada de uma Função: Para usar uma função, você a chama pelo nome e passa os argumentos necessários. O valor 
+                        retornado pode ser armazenado em uma variável ou usado diretamente. 
+
+  Exemplo de chamadas: inteiro variável
+                       variável = somar(num1,num2) // Chama a função somar e armazena o resultado em 'resultado'
 
 
 
+                              "Conclusão sobre Subrotinas"
+
+ Subrotinas são ferramentas essenciais na programação que ajudam a tornar o código mais organizado, reutilizável e fácil de manter. Ao dividir o código em procedimentos e funções, você pode estruturar tarefas específicas de forma clara e eficiente. Procedimentos executam ações sem retornar valores, enquanto funções realizam tarefas e retornam um resultado que pode ser usado em outras partes do programa.
+
+ Com o uso de subrotinas, você melhora a modularidade do código, facilitando a reutilização e a manutenção. Isso não só reduz a duplicação de código, mas também torna o desenvolvimento mais ágil e o programa mais robusto. Em suma, subrotinas são fundamentais para criar software bem estruturado e de alta qualidade.
+
+ Em resumo, subrotinas são uma prática na programação que contribui significativamente para a organização, eficiência e manutenção do código. Elas permitem que os desenvolvedores criem programas mais limpos, reutilizáveis e fáceis de entender, promovendo uma abordagem estruturada e modular ao desenvolvimento de software. 
+
+ Utilizar subrotinas adequadamente é fundamental para construir sistemas robustos e bem estruturados, facilitando o desenvolvimento e a evolução contínua do software.
 
