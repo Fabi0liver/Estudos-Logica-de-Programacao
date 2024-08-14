@@ -8,49 +8,59 @@ programa
      <<<<<<<<------->>>>>>> Borda 3*/
 
 
-     funcao gerador(cadeia frase, inteiro borda)
+     funcao gerador(cadeia frase, inteiro borda, inteiro vezes)
      {
-     	escolha(borda)
+     	para(inteiro cont = 0; cont < vezes; cont++)
+     	{
+     		escolha(borda)
      	{
      		caso 1:
-     			escreva("+-------===================------+\n")
-     		     escreva(frase)
+     			escreva(" \n+-------===================------+\n")
+     		     escreva(frase, "\n")
      	          escreva("+-------===================------+\n")
      	          pare
 
      	     caso 2:
-     			escreva("~~~~~~~~:::::::::::::::::::~~~~~~~\n")
-     		     escreva(frase)
-     	          escreva("~~~~~~~~:::::::::::::::::::~~~~~~~\n")
+     			escreva(" \n~~~~~~~~:::::::::::::::::::~~~~~~~\n")
+     		     escreva(frase, "\n")
+     	          escreva("~~~~~~~~:::::::::::::::::::~~~~~~~\n ")
      	          pare
 
      	     caso 3:
-     			escreva("<<<<<<<<------------------->>>>>>>\n")
-     		     escreva(frase)
-     	          escreva("<<<<<<<<------------------->>>>>>>\n")
+     			escreva(" \n<<<<<<<<------------------->>>>>>>\n")
+     		     escreva(frase, "\n")
+     	          escreva("<<<<<<<<------------------->>>>>>>\n ")
      	          pare
 
      	     caso contrario:
      	          escreva(" OPÇÃO INVÀLIDA... TENTE NOVAMENTE!! \n")
+     	}
      	}
      	
      }
 
      funcao inicio()
      {
-     	inteiro escolher 
+     	inteiro escolher , cont
+     	cadeia frase
 
      	
-     	escreva("..............................\n")
+     	escreva("\n   Escreva uma frase: \n")
+     	leia(frase)
+     	escreva("................................\n")
+     	escreva("Qnt. de vezes repetir frase: ")
+          leia(cont)
+     	escreva("................................\n")
      	escreva(" [1] : +-------=======------+ \n")
           escreva(" [2] : ~~~~~~~~:::::::~~~~~~~ \n")
           escreva(" [3] : <<<<<<<<------->>>>>>> \n")
-          escreva("..............................\n")
+          escreva("................................\n")
           escreva("     Escolha a borda: ")
           leia(escolher)
+          
           limpa()
      	
-     	gerador(" Estudando lógica de programação!\n", escolher)
+     	gerador(frase, escolher, cont)
      }
 
 }
@@ -60,7 +70,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1028; 
+ * @POSICAO-CURSOR = 1823; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
