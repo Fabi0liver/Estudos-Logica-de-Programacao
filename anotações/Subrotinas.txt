@@ -327,7 +327,8 @@ modificar variáveis globais, ou realizar cálculos intermediários.
                          nome_do_procedimento(parâmetro) // Chama o procedimento com um parâmetro
 
 
-- Funções: Funções são subrotinas que, ao contrário dos procedimentos, retornam um valor ao chamador. Além de executar uma série de operações, elas produzem um resultado que pode ser usado em outras partes do programa.
+- Funções: Funções são subrotinas que, ao contrário dos procedimentos, retornam um valor ao chamador. Além de executar 
+uma série de operações, elas produzem um resultado que pode ser usado em outras partes do programa.
 
   Características:
                
@@ -366,7 +367,9 @@ modificar variáveis globais, ou realizar cálculos intermediários.
                        variável = somar(num1,num2) // Chama a função somar e armazena o resultado em 'resultado'
 
 
-- Funções Recursivas: Funções recursivas são subrotinas que se chamam a si mesmas, direta ou indiretamente. Elas são especialmente úteis para resolver problemas que podem ser decompostos em subproblemas menores de forma semelhante ao problema original.
+- Funções Recursivas: Funções recursivas são subrotinas que se chamam a si mesmas, direta ou indiretamente. 
+Elas são especialmente úteis para resolver problemas que podem ser decompostos em subproblemas menores de forma
+semelhante ao problema original.
 
   Características:
 
@@ -374,7 +377,8 @@ modificar variáveis globais, ou realizar cálculos intermediários.
                - Geralmente incluem uma condição de parada para evitar loops infinitos.
                - Podem ser usadas para navegar em estruturas de dados como árvores ou listas ligadas.
 
-  Uso Comum: São usadas em algoritmos como ordenação (ex: quicksort), busca em profundidade, e cálculos matemáticos (ex: fatorial, Fibonacci).
+  Uso Comum: São usadas em algoritmos como ordenação (ex: quicksort), busca em profundidade, e cálculos 
+matemáticos (ex: fatorial, Fibonacci).
 
   Sintaxe Básica: "funcao tipo nome_da_funcao(tipo parametros)
                       // Condição de parada: Define quando a recursão deve parar
