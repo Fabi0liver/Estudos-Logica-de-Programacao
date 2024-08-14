@@ -327,14 +327,13 @@ modificar variáveis globais, ou realizar cálculos intermediários.
                          nome_do_procedimento(parâmetro) // Chama o procedimento com um parâmetro
 
 
-- Funções: Funções são subrotinas que, ao contrário dos procedimentos, retornam um valor ao chamador. Além de executar
-uma série de operações, elas produzem um resultado que pode ser usado em outras partes do programa.
+- Funções: Funções são subrotinas que, ao contrário dos procedimentos, retornam um valor ao chamador. Além de executar uma série de operações, elas produzem um resultado que pode ser usado em outras partes do programa.
 
   Características:
                
-              - Sempre retornam um valor, que pode ser de qualquer tipo de dado (inteiro, string, objeto, etc.).
-              - São invocadas com a expectativa de que devolvam um valor útil, como o resultado de um cálculo.
-              - Podem ser usadas dentro de expressões e atribuições de variáveis.
+               - Sempre retornam um valor, que pode ser de qualquer tipo de dado (inteiro, string, objeto, etc.).
+               - São invocadas com a expectativa de que devolvam um valor útil, como o resultado de um cálculo.
+               - Podem ser usadas dentro de expressões e atribuições de variáveis.
 
   Uso Comum: São utilizadas para cálculos matemáticos, processamento de strings, validação de dados, e operações 
             que precisam de um resultado para continuar a execução do programa.
@@ -365,6 +364,40 @@ uma série de operações, elas produzem um resultado que pode ser usado em outr
 
   Exemplo de chamadas: inteiro variável
                        variável = somar(num1,num2) // Chama a função somar e armazena o resultado em 'resultado'
+
+
+- Funções Recursivas: Funções recursivas são subrotinas que se chamam a si mesmas, direta ou indiretamente. Elas são especialmente úteis para resolver problemas que podem ser decompostos em subproblemas menores de forma semelhante ao problema original.
+
+  Características:
+
+	       - A função contém uma ou mais chamadas a si mesma dentro de seu próprio corpo.
+               - Geralmente incluem uma condição de parada para evitar loops infinitos.
+               - Podem ser usadas para navegar em estruturas de dados como árvores ou listas ligadas.
+
+  Uso Comum: São usadas em algoritmos como ordenação (ex: quicksort), busca em profundidade, e cálculos matemáticos (ex: fatorial, Fibonacci).
+
+  Sintaxe Básica: "funcao tipo nome_da_funcao(tipo parametros)
+                      // Condição de parada: Define quando a recursão deve parar
+                      se (condicao_de_parada) 
+                             retorne valor_base
+		      
+                      // Condição recusiva: Define quando a recursão deve fazer até a condição de parada
+		      senao 
+                             retorne valor (operacao) nome_da_funcao(parametro (operacoo) 1)
+                      fimse
+
+                      Componentes da Função Recursiva:
+
+                         - funcao: Palavra-chave que define a função.
+                         - nome_da_funcao: Nome da função, que deve ser descritivo.
+                         - parametros: Variáveis que a função usa para realizar a recursão.
+                         - condicao_de_parada: A condição que, quando verdadeira, faz a função parar de se chamar 
+                                              e retornar um valor base. Isso previne loops infinitos.
+                         - valor_base: O valor retornado quando a condição de parada é alcançada.
+                         - expressao_recursiva: A expressão que inclui a chamada à própria função com parâmetros  
+                                              atualizados.
+                         - Operação: Qual operação(+ , - ,* , /) matemática será feita 
+             
 
 
 
